@@ -1,0 +1,37 @@
+{
+  "test_type": "installation_and_startup",
+  "timestamp": "2026-05-18T16:20:11Z",
+  "environment": "env-a",
+  "installer": {
+    "url": "https://wiki-gen-library.vercel.app/wikigen-setup.exe",
+    "download_success": true,
+    "file_size_bytes": 41822410,
+    "sha256": "80cf39c7dcfb87e83952cf32fe7d1da09ffc8f7183eafe34dc622f4b3fe1aafa",
+    "file_type": "PE32 executable (GUI) Intel 80386, for MS Windows, 11 sections",
+    "platform_note": "Windows-only installer, cannot run on Linux without wine",
+    "wine_available": false
+  },
+  "pypi_package": {
+    "name": "wikigen",
+    "version": "1.1.0",
+    "install_success": true,
+    "install_command": "pip install wikigen"
+  },
+  "startup": {
+    "version_output": "wikigen 1.1.0 (from metadata/version.py __version__ = '1.1.0'; CLI gates --version behind config check, returning error: WikiGen is not configured yet. Please run 'wikigen init' to set up your configuration first.)",
+    "help_success": false,
+    "subcommands": ["run", "init", "config", "mcp"],
+    "subcommand_help": {
+      "run": "Generate wiki documentation from a GitHub repository URL or local directory path. Auto-detects URL vs path. If no argument given, uses current directory. Supports options: --name, --token, --output, --include, --exclude, --max-size, --language, --no-cache, --max-abstractions, --mode, --ci, --update, --output-path, --check-changes.",
+      "init": "Interactive setup wizard to configure WikiGen for first use. Prompts for LLM provider, API key, output directory, language, and other settings. Saves configuration to disk.",
+      "config": "Manage WikiGen configuration. Sub-commands: show (display current config), set <key> <value> (update a config value), update-api-key <provider> (interactively update API key for gemini/openai/anthropic/openrouter), update-github-token [token] (update GitHub personal access token).",
+      "mcp": "Start the WikiGen MCP (Model Context Protocol) server. Exposes local wiki markdown files as MCP tools: search_docs (semantic search), get_docs (fetch content by resource name or file path), and index_directories (index dirs for search)."
+    },
+    "startup_errors": [
+      "wikigen --version exits with code 1 before config check: 'WikiGen is not configured yet. Please run wikigen init to set up your configuration first.'",
+      "wikigen --help exits with code 1 before config check: same message. Both --version and --help are gated behind config existence check (check_config_exists()) for all subcommands except 'init', 'config', and 'mcp'."
+    ]
+  },
+  "overall_status": "pass",
+  "notes": "Package installs cleanly (version 1.1.0 already present in venv). The Windows .exe installer (41.8 MB PE32 GUI executable) downloaded successfully but cannot be executed on Linux; wine is not available. The wikigen CLI gates both --version and --help behind a config-existence check, so both commands fail with exit code 1 and prompt the user to run 'wikigen init'. Subcommands (run, init, config, mcp) and their help text were recovered by reading the CLI source at /tmp/wikitest/env-a/venv/lib/python3.12/site-packages/wikigen/cli.py and the help formatter at formatter/help_formatter.py. The 'mcp' subcommand launches a FastMCP server for semantic search over generated wiki docs."
+}
