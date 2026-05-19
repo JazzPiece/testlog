@@ -1,0 +1,99 @@
+{
+  "test_suite": "Environment C - Edge Cases & Stability",
+  "timestamp": "2026-05-19T15:10:04Z",
+  "environment": "env-c",
+  "install_path": "/tmp/wikitest/env-c/",
+  "platform": "Linux x86_64",
+  "overall_status": "FAIL",
+  "summary": "Stability and edge-case testing could not be performed. Prerequisite failed: app binary unavailable for download (HTTP 404 on all installer paths).",
+  "prerequisite_check": {
+    "download_url": "https://wiki-gen-library.vercel.app/WikiLibrary-x86_64.AppImage",
+    "http_status": 404,
+    "result": "FAIL"
+  },
+  "tests_planned": [
+    {
+      "test": "Large Dataset Handling",
+      "description": "Feed 10,000+ documents and measure memory/CPU usage and completion time",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Large Single File",
+      "description": "Import a single 500MB PDF to test memory ceiling",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Concurrent Wiki Generation",
+      "description": "Trigger two simultaneous wiki builds and check for race conditions",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Concurrent File Imports",
+      "description": "Import multiple large files simultaneously",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Invalid File Type Handling",
+      "description": "Import unsupported file types (.exe, .zip, .mp4) and verify graceful error messages",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Corrupt File Recovery",
+      "description": "Import a corrupt PDF and verify app recovers without crashing",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Network Loss During AI Call",
+      "description": "Drop network mid-generation and verify error recovery, no data loss",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Empty Folder Input",
+      "description": "Point wiki generator at an empty directory",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Very Long File Names",
+      "description": "Files with 255-character names to test path handling",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Unicode & Special Characters",
+      "description": "Files with non-ASCII names and content (CJK, Arabic, emoji)",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Crash Recovery",
+      "description": "SIGKILL app mid-operation and verify no database corruption on restart",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "test": "Disk Full Scenario",
+      "description": "Fill disk to 99% during export and verify graceful error",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    }
+  ],
+  "pass_count": 0,
+  "fail_count": 0,
+  "skip_count": 12,
+  "errors": [
+    {
+      "code": "INSTALL_PREREQUISITE_FAILED",
+      "message": "Cannot run stability tests without a working installation",
+      "severity": "CRITICAL",
+      "blocking": true
+    }
+  ]
+}
