@@ -1,0 +1,77 @@
+{
+  "test_suite": "Environment A - Installation & Startup",
+  "timestamp": "2026-05-19T15:10:04Z",
+  "environment": "env-a",
+  "install_path": "/tmp/wikitest/env-a/",
+  "platform": "Linux x86_64",
+  "overall_status": "FAIL",
+  "summary": "Installation failed: Linux AppImage could not be downloaded. The download endpoint redirects to a file that does not exist on the server.",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Fetch download page",
+      "url": "https://wiki-gen-library.vercel.app/",
+      "status": "PASS",
+      "detail": "Page loaded successfully. Found Linux download endpoint at /api/track-install?platform=linux"
+    },
+    {
+      "step": 2,
+      "name": "Resolve Linux installer URL",
+      "url": "https://wiki-gen-library.vercel.app/api/track-install?platform=linux",
+      "status": "PASS",
+      "detail": "Endpoint returned HTTP 302 redirect to /WikiLibrary-x86_64.AppImage"
+    },
+    {
+      "step": 3,
+      "name": "Download Linux AppImage",
+      "url": "https://wiki-gen-library.vercel.app/WikiLibrary-x86_64.AppImage",
+      "status": "FAIL",
+      "http_status": 404,
+      "detail": "Server returned HTTP 404 NOT_FOUND. The AppImage file does not exist at the redirected URL. Additional paths checked: /download/WikiLibrary-x86_64.AppImage (404), /releases/WikiLibrary-x86_64.AppImage (404), /dist/WikiLibrary-x86_64.AppImage (404), /WikiLibrary.AppImage (404). GitHub repository JazzPiece/wikiGen-Library also returned 404 when checking releases page.",
+      "downloaded_bytes": 79,
+      "downloaded_content": "The page could not be found\n\nNOT_FOUND"
+    },
+    {
+      "step": 4,
+      "name": "Install AppImage to env-a",
+      "status": "SKIP",
+      "detail": "Skipped — download failed in step 3"
+    },
+    {
+      "step": 5,
+      "name": "Launch app and verify startup",
+      "status": "SKIP",
+      "detail": "Skipped — installation not completed"
+    },
+    {
+      "step": 6,
+      "name": "Check version info in UI",
+      "status": "SKIP",
+      "detail": "Skipped — app not running"
+    }
+  ],
+  "errors": [
+    {
+      "code": "DOWNLOAD_404",
+      "message": "AppImage binary not found at redirect target /WikiLibrary-x86_64.AppImage",
+      "severity": "CRITICAL",
+      "blocking": true
+    }
+  ],
+  "additional_probing": {
+    "api_version_endpoint": "https://wiki-gen-library.vercel.app/api/version -> HTTP 404",
+    "github_releases": "https://github.com/JazzPiece/wikiGen-Library/releases -> HTTP 404",
+    "ssl_certificate": {
+      "valid": true,
+      "subject": "CN=*.vercel.app",
+      "issuer": "CN=Egress Gateway Subordinate CA",
+      "issued": "2026-05-19",
+      "expires": "2026-06-18"
+    }
+  },
+  "recommendations": [
+    "Upload the WikiLibrary-x86_64.AppImage binary to the Vercel project's public directory or update the redirect to a working host (e.g., GitHub Releases)",
+    "Add the compiled AppImage as a GitHub Release asset so the GitHub Releases page resolves correctly",
+    "Implement a /api/version endpoint to expose version metadata without requiring a download"
+  ]
+}

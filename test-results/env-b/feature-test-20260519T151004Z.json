@@ -1,0 +1,99 @@
+{
+  "test_suite": "Environment B - Feature Testing",
+  "timestamp": "2026-05-19T15:10:04Z",
+  "environment": "env-b",
+  "install_path": "/tmp/wikitest/env-b/",
+  "platform": "Linux x86_64",
+  "overall_status": "FAIL",
+  "summary": "Feature testing could not be performed. Prerequisite failed: app binary unavailable for download (HTTP 404 on all installer paths).",
+  "prerequisite_check": {
+    "download_url": "https://wiki-gen-library.vercel.app/WikiLibrary-x86_64.AppImage",
+    "http_status": 404,
+    "result": "FAIL"
+  },
+  "features_planned": [
+    {
+      "feature": "Wiki Creation",
+      "description": "Create a new wiki from a directory of documents",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "Wiki Editing",
+      "description": "Edit wiki entries, update cross-references",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "File Import — PDF",
+      "description": "Import PDF documents into wiki",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "File Import — Word/Excel/PowerPoint",
+      "description": "Import Office format documents",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "File Import — Markdown & Plain Text",
+      "description": "Import Markdown and .txt files",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "File Export (Obsidian-compatible)",
+      "description": "Export wiki as Obsidian vault with backlinks",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "AI Backend — Claude",
+      "description": "Configure and use Anthropic Claude as AI provider",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "AI Backend — OpenAI",
+      "description": "Configure and use OpenAI as AI provider",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "AI Backend — Ollama (local)",
+      "description": "Configure and use local Ollama instance",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "Library Management",
+      "description": "Add, remove, and organize document libraries",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "Background Sync",
+      "description": "Detect file changes and auto-update wiki",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    },
+    {
+      "feature": "Auto Cross-Referencing",
+      "description": "Automatically link related wiki pages",
+      "status": "UNTESTED",
+      "reason": "App could not be installed — installer not available"
+    }
+  ],
+  "pass_count": 0,
+  "fail_count": 0,
+  "skip_count": 12,
+  "errors": [
+    {
+      "code": "INSTALL_PREREQUISITE_FAILED",
+      "message": "Cannot run feature tests without a working installation",
+      "severity": "CRITICAL",
+      "blocking": true
+    }
+  ]
+}
