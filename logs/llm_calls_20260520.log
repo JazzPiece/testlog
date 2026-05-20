@@ -4318,3 +4318,95 @@ Format the output as a YAML list of dictionaries:
     - 5 # path/to/another.js
 # ... up to 10 abstractions
 ```
+2026-05-20 12:26:44,099 - INFO - PROMPT: 
+For the project `bigfile`:
+
+Codebase Context:
+--- File Index 0: small.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # small.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:27:04,099 - INFO - PROMPT: 
+For the project `bigfile`:
+
+Codebase Context:
+--- File Index 0: small.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # small.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
