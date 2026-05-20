@@ -1,0 +1,58 @@
+{
+  "test_suite": "Environment B - Feature Testing",
+  "timestamp": "2026-05-20T12:12:45Z",
+  "environment": "env-b",
+  "target_app": "wikiGen Desktop",
+  "download_source": "https://wiki-gen-library.vercel.app/",
+  "status": "BLOCKED",
+  "overall_result": "FAIL",
+  "blocking_reason": "Installer not downloadable — Linux download endpoint returns HTTP 404 and GitHub repository JazzPiece/wikiGen-Library does not exist.",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Install app to /tmp/wikitest/env-b/",
+      "result": "SKIP",
+      "details": "Blocked: no installer available. See Environment A install-test for full download diagnostics."
+    },
+    {
+      "step": 2,
+      "name": "Test wiki creation",
+      "result": "SKIP"
+    },
+    {
+      "step": 3,
+      "name": "Test wiki editing",
+      "result": "SKIP"
+    },
+    {
+      "step": 4,
+      "name": "Test file import (PDF, Word, Excel, PowerPoint, Markdown, plain text)",
+      "result": "SKIP"
+    },
+    {
+      "step": 5,
+      "name": "Test file export",
+      "result": "SKIP"
+    },
+    {
+      "step": 6,
+      "name": "Test library management",
+      "result": "SKIP"
+    }
+  ],
+  "planned_test_cases": [
+    "Create new wiki from empty state",
+    "Edit existing wiki page content",
+    "Import PDF document and verify parsing",
+    "Import Word (.docx) document",
+    "Import Excel (.xlsx) spreadsheet",
+    "Import PowerPoint (.pptx) presentation",
+    "Import Markdown file",
+    "Import plain text file",
+    "Export wiki to Markdown",
+    "Cross-reference generation between pages",
+    "Add/remove document from library",
+    "Switch AI backend (Claude / OpenAI / Ollama)",
+    "Folder watch — add file, verify wiki update"
+  ]
+}

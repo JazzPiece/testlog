@@ -1,0 +1,67 @@
+{
+  "test_suite": "Environment A - Installation & Startup",
+  "timestamp": "2026-05-20T12:12:45Z",
+  "environment": "env-a",
+  "target_app": "wikiGen Desktop",
+  "download_source": "https://wiki-gen-library.vercel.app/",
+  "status": "BLOCKED",
+  "overall_result": "FAIL",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Fetch download page",
+      "action": "GET https://wiki-gen-library.vercel.app/",
+      "result": "SUCCESS",
+      "details": "Page loaded. Advertised Linux download at /api/track-install?platform=linux. GitHub source at github.com/JazzPiece/wikiGen-Library"
+    },
+    {
+      "step": 2,
+      "name": "Resolve Linux installer URL",
+      "action": "GET https://wiki-gen-library.vercel.app/api/track-install?platform=linux",
+      "result": "FAIL",
+      "http_status": 404,
+      "details": "API endpoint returned NOT_FOUND. Response body: 'The page could not be found / NOT_FOUND'. No redirect to an installer asset was issued."
+    },
+    {
+      "step": 3,
+      "name": "Check GitHub releases as fallback",
+      "action": "GET https://github.com/JazzPiece/wikiGen-Library/releases",
+      "result": "FAIL",
+      "http_status": 404,
+      "details": "GitHub repository JazzPiece/wikiGen-Library does not exist or is private. No releases available."
+    },
+    {
+      "step": 4,
+      "name": "Download installer",
+      "action": "N/A - blocked by step 2 and 3 failures",
+      "result": "SKIP",
+      "details": "Cannot proceed without a valid installer URL."
+    },
+    {
+      "step": 5,
+      "name": "Install to /tmp/wikitest/env-a/",
+      "action": "N/A",
+      "result": "SKIP"
+    },
+    {
+      "step": 6,
+      "name": "Launch app and verify startup",
+      "action": "N/A",
+      "result": "SKIP"
+    },
+    {
+      "step": 7,
+      "name": "Check version info in UI",
+      "action": "N/A",
+      "result": "SKIP"
+    }
+  ],
+  "root_cause": "The Linux installer download endpoint (/api/track-install?platform=linux) returns HTTP 404. The GitHub repository referenced on the landing page (JazzPiece/wikiGen-Library) also returns HTTP 404, indicating it does not exist or is private. No installer asset is publicly accessible.",
+  "app_advertised_features": {
+    "platforms": ["Windows 10+", "Linux x86_64"],
+    "input_formats": ["PDF", "Word", "Excel", "PowerPoint", "Markdown", "plain text"],
+    "ai_backends": ["Claude", "OpenAI", "Ollama (local)"],
+    "output": "Fully cross-referenced Markdown wiki (Obsidian-compatible)",
+    "special": "No Python dependency"
+  }
+}

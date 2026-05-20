@@ -1,0 +1,47 @@
+{
+  "test_suite": "Environment C - Edge Cases & Stability",
+  "timestamp": "2026-05-20T12:12:45Z",
+  "environment": "env-c",
+  "target_app": "wikiGen Desktop",
+  "download_source": "https://wiki-gen-library.vercel.app/",
+  "status": "BLOCKED",
+  "overall_result": "FAIL",
+  "blocking_reason": "Installer not downloadable — Linux download endpoint returns HTTP 404 and GitHub repository JazzPiece/wikiGen-Library does not exist.",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Install app to /tmp/wikitest/env-c/",
+      "result": "SKIP",
+      "details": "Blocked: no installer available. See Environment A install-test for full download diagnostics."
+    },
+    {
+      "step": 2,
+      "name": "Test with large datasets",
+      "result": "SKIP"
+    },
+    {
+      "step": 3,
+      "name": "Test concurrent operations",
+      "result": "SKIP"
+    },
+    {
+      "step": 4,
+      "name": "Test error recovery",
+      "result": "SKIP"
+    }
+  ],
+  "planned_test_cases": [
+    "Import folder with 500+ documents",
+    "Import single file >100 MB",
+    "Import deeply nested folder structure (10+ levels)",
+    "Trigger multiple simultaneous wiki generation jobs",
+    "Open/edit multiple wiki pages concurrently",
+    "Provide invalid AI API key — verify graceful error message",
+    "Import corrupted/empty file — verify no crash",
+    "Provide unreadable folder path — verify error handling",
+    "Kill app mid-generation — verify resume or clean state on restart",
+    "Disk-full simulation — verify error handling",
+    "Network offline — verify offline mode or informative error",
+    "Sustained 30-minute wiki generation — memory leak check"
+  ]
+}
