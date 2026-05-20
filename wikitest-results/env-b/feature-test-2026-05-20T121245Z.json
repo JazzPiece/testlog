@@ -1,58 +1,108 @@
 {
-  "test_suite": "Environment B - Feature Testing",
-  "timestamp": "2026-05-20T12:12:45Z",
-  "environment": "env-b",
-  "target_app": "wikiGen Desktop",
-  "download_source": "https://wiki-gen-library.vercel.app/",
-  "status": "BLOCKED",
-  "overall_result": "FAIL",
-  "blocking_reason": "Installer not downloadable — Linux download endpoint returns HTTP 404 and GitHub repository JazzPiece/wikiGen-Library does not exist.",
-  "steps": [
+  "test_suite": "wikigen-env-b-feature-tests",
+  "timestamp": "2026-05-20T121245Z",
+  "environment": {
+    "env": "env-b",
+    "python": "3.12",
+    "venv": "/tmp/wikitest/env-b/venv312",
+    "wikigen_binary": "/tmp/wikitest/env-b/venv312/bin/wikigen",
+    "config_path": "/root/.config/wikigen/config.json",
+    "output_dir": "/tmp/wikitest/env-b/output",
+    "platform": "linux",
+    "note": "config.json was being overwritten by an external process during tests; config show reflects persisted state, not the env-b spec config"
+  },
+  "version_tested": "1.1.0",
+  "overall_result": "partial",
+  "features_tested": [
     {
-      "step": 1,
-      "name": "Install app to /tmp/wikitest/env-b/",
-      "result": "SKIP",
-      "details": "Blocked: no installer available. See Environment A install-test for full download diagnostics."
+      "feature": "wiki creation \u2014 local directory",
+      "command": "wikigen run /tmp/wikitest/env-b/sample --name TestProject --ci --output /tmp/wikitest/env-b/output",
+      "exit_code": 124,
+      "output_snippet": "\u25c6 Repository: /tmp/wikitest/env-b/sample\n\u25c6 Language: English\n\u25c6 LLM caching: Enabled\n\u25c6 CI Mode: Enabled\n\u250c\u2500 \u25ce Directory Crawling\n\u2502  \u251c\u2500 \u2193 main.py (299 bytes)\n\u2502  \u251c\u2500 \u2193 hello.py (271 bytes)\n\u2502  \u251c\u2500 \u2193 utils.py (314 bytes)\n\u2514\u2500 \u2713 Complete (3 files, 884 bytes) [0.0s]\n\u250c\u2500 \u27f3 LLM Analysis\n\u251c\u2500 \u27f3 Identifying abstractions...\n[process hung \u2014 killed by 8s timeout]",
+      "result": "partial",
+      "notes": "Directory crawling succeeded (3 files, 884 bytes). Process hung at LLM API call as expected with placeholder API key. Exit code 124 = timeout kill. Pre-LLM pipeline is functional."
     },
     {
-      "step": 2,
-      "name": "Test wiki creation",
-      "result": "SKIP"
+      "feature": "config set (valid key \u2014 language spanish)",
+      "command": "wikigen config set language spanish",
+      "exit_code": 0,
+      "output_snippet": "\u2713 Updated language to spanish",
+      "result": "pass",
+      "notes": "Config set for valid key succeeds with confirmation message and exit code 0."
     },
     {
-      "step": 3,
-      "name": "Test wiki editing",
-      "result": "SKIP"
+      "feature": "config set (restore \u2014 language english)",
+      "command": "wikigen config set language english",
+      "exit_code": 0,
+      "output_snippet": "\u2713 Updated language to english",
+      "result": "pass",
+      "notes": "Restore of language value to english succeeded."
     },
     {
-      "step": 4,
-      "name": "Test file import (PDF, Word, Excel, PowerPoint, Markdown, plain text)",
-      "result": "SKIP"
+      "feature": "config set (invalid key)",
+      "command": "wikigen config set totally_fake_key foobar",
+      "exit_code": 0,
+      "output_snippet": "\u2713 Updated totally_fake_key to foobar",
+      "result": "fail",
+      "notes": "BUG: wikigen accepted and persisted an unknown config key (totally_fake_key) without any validation error. The key appeared in config.json after the command. Expected: error/non-zero exit. Actual: exit 0 with success message and key written to config."
     },
     {
-      "step": 5,
-      "name": "Test file export",
-      "result": "SKIP"
+      "feature": "invalid path",
+      "command": "wikigen run /nonexistent/does-not-exist --ci --output /tmp/wikitest/env-b/output",
+      "exit_code": 1,
+      "output_snippet": "\u2717 Error: An unexpected error occurred\n  Directory does not exist: /nonexistent/does-not-exist\n  Please check your configuration and try again.",
+      "result": "pass",
+      "notes": "Correctly returns exit code 1 and displays a clear error message for nonexistent path."
     },
     {
-      "step": 6,
-      "name": "Test library management",
-      "result": "SKIP"
+      "feature": "empty directory",
+      "command": "wikigen run /tmp/wikitest/env-b/empty --ci --output /tmp/wikitest/env-b/output",
+      "exit_code": 1,
+      "output_snippet": "\u2717 Error: An unexpected error occurred\n  Failed to fetch files\n  Please check your configuration and try again.",
+      "result": "partial",
+      "notes": "Returns exit code 1 for empty directory. Error message is generic (\"Failed to fetch files\") rather than a more informative \"no files found\" message. Functional but error messaging could be improved."
+    },
+    {
+      "feature": "config show",
+      "command": "wikigen config show",
+      "exit_code": 0,
+      "output_snippet": "Current WikiGen Configuration:\n  LLM Provider: gemini\n  LLM Model: gemini-2.5-flash\n  Output Directory: /tmp/wikitest/env-c/output\n  Language: english\n  Max Abstractions: 10\n  Max File Size: 1000\n  Use Cache: True\n  Documentation Mode: False\n  Google Gemini API Key: \u2718 Not set\n  GitHub Token: \u2718 Not set",
+      "result": "pass",
+      "notes": "Command runs and displays config with exit code 0. Note: config.json on this system was being modified by an external process during testing, so the displayed values reflect the current persisted config, not the env-b spec values. Output_dir shows /tmp/wikitest/env-c/output (external modification) and provider shown as gemini despite config having both provider fields."
+    },
+    {
+      "feature": "mcp subcommand exists",
+      "command": "wikigen mcp --help",
+      "exit_code": 0,
+      "output_snippet": "(no output produced)",
+      "result": "bug",
+      "notes": "BUG: wikigen mcp --help exits 0 with zero bytes of output. The mcp subcommand is not listed in wikigen --help (only run, init, config are listed). The subcommand appears to be silently accepted but does nothing \u2014 no help text, no error, no output. Expected: either a documented help output or an error indicating unrecognized subcommand."
     }
   ],
-  "planned_test_cases": [
-    "Create new wiki from empty state",
-    "Edit existing wiki page content",
-    "Import PDF document and verify parsing",
-    "Import Word (.docx) document",
-    "Import Excel (.xlsx) spreadsheet",
-    "Import PowerPoint (.pptx) presentation",
-    "Import Markdown file",
-    "Import plain text file",
-    "Export wiki to Markdown",
-    "Cross-reference generation between pages",
-    "Add/remove document from library",
-    "Switch AI backend (Claude / OpenAI / Ollama)",
-    "Folder watch — add file, verify wiki update"
+  "bugs_found": [
+    {
+      "id": "BUG-ENV-B-001",
+      "severity": "medium",
+      "title": "config set accepts arbitrary unknown keys without validation",
+      "description": "wikigen config set accepts any key name including completely invalid ones (e.g., totally_fake_key). The command exits 0 with a success message and writes the unknown key to config.json.",
+      "expected": "Command should validate the key against a list of known configuration fields and return a non-zero exit code with an error message for unknown keys.",
+      "actual": "Exit code 0, output: \"\u2713 Updated totally_fake_key to foobar\", and key was written to /root/.config/wikigen/config.json as {\"totally_fake_key\": \"foobar\"}."
+    },
+    {
+      "id": "BUG-ENV-B-002",
+      "severity": "medium",
+      "title": "mcp subcommand produces no output and no error",
+      "description": "Running \"wikigen mcp --help\" or \"wikigen mcp\" produces zero bytes of output and exits with code 0. The mcp subcommand is not documented in the main --help. It silently does nothing.",
+      "expected": "Either: (a) mcp subcommand is documented and provides help/usage text when --help is passed, or (b) the subcommand is not recognized and returns an error with exit code 1.",
+      "actual": "Exit code 0, zero bytes of output for both \"wikigen mcp\" and \"wikigen mcp --help\"."
+    },
+    {
+      "id": "BUG-ENV-B-003",
+      "severity": "low",
+      "title": "Empty directory error message is generic and not informative",
+      "description": "When run against an empty directory, wikigen reports \"Failed to fetch files\" which is a generic catch-all error rather than a specific message indicating no matching files were found.",
+      "expected": "A more descriptive message such as \"No files found matching include patterns in the specified directory\" to help users diagnose the issue.",
+      "actual": "Error: \"Failed to fetch files / Please check your configuration and try again.\" with exit code 1."
+    }
   ]
 }

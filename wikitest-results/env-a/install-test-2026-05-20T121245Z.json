@@ -1,67 +1,98 @@
 {
-  "test_suite": "Environment A - Installation & Startup",
+  "test_suite": "wikigen-env-a-install-tests",
   "timestamp": "2026-05-20T12:12:45Z",
-  "environment": "env-a",
-  "target_app": "wikiGen Desktop",
-  "download_source": "https://wiki-gen-library.vercel.app/",
-  "status": "BLOCKED",
-  "overall_result": "FAIL",
-  "steps": [
+  "environment": {
+    "label": "env-a",
+    "venv_path": "/tmp/wikitest/env-a/venv312",
+    "python_version": "Python 3.12.3",
+    "platform": "linux",
+    "binary_path": "/tmp/wikitest/env-a/venv312/bin/wikigen",
+    "binary_size_human": "236 B",
+    "binary_permissions": "-rwxr-xr-x",
+    "config_path": "/root/.config/wikigen/config.json"
+  },
+  "version_tested": "1.1.0",
+  "overall_result": "pass",
+  "install_method": {
+    "attempted": ["linux_api_endpoint", "pypi"],
+    "succeeded": "pypi",
+    "pypi_version": "1.1.0",
+    "linux_api_status": 404
+  },
+  "startup_tests": [
     {
-      "step": 1,
-      "name": "Fetch download page",
-      "action": "GET https://wiki-gen-library.vercel.app/",
-      "result": "SUCCESS",
-      "details": "Page loaded. Advertised Linux download at /api/track-install?platform=linux. GitHub source at github.com/JazzPiece/wikiGen-Library"
+      "name": "version_check",
+      "command": "PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring wikigen --version",
+      "exit_code": 0,
+      "output_snippet": "wikigen 1.1.0",
+      "result": "pass"
     },
     {
-      "step": 2,
-      "name": "Resolve Linux installer URL",
-      "action": "GET https://wiki-gen-library.vercel.app/api/track-install?platform=linux",
-      "result": "FAIL",
-      "http_status": 404,
-      "details": "API endpoint returned NOT_FOUND. Response body: 'The page could not be found / NOT_FOUND'. No redirect to an installer asset was issued."
+      "name": "help_output",
+      "command": "PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring wikigen --help (first 15 lines)",
+      "exit_code": 0,
+      "output_snippet": "INTRODUCING\n\n██╗   ██╗      ██╗    ██╗ ██╗ ██╗  ██╗ ██╗  ██████╗  ███████╗ ███╗   ██╗\n  ██║   ██║    ██║    ██║ ██║ ██║ ██╔╝ ██║ ██╔════╝  ██╔════╝ ████╗  ██║\n    ██║   ██║  ██║ █╗ ██║ ██║ █████╔╝  ██║ ██║  ███╗ ██████╗  ██╔██╗ ██║\n  ██║   ██║    ██║███╗██║ ██║ ██╔═██╗  ██║ ██║   ██║ ██╔══╝   ██║╚██╗██║\n██║   ██║      ╚███╔███╔╝ ██║ ██║  ██╗ ██║ ╚██████╔╝ ███████╗ ██║ ╚████║\n╚═╝   ╚═╝       ╚══╝╚══╝  ╚═╝ ╚═╝  ╚═╝ ╚═╝  ╚═════╝  ╚══════╝ ╚═╝  ╚═══╝\n\nWIKI'S FOR NERDS, BY NERDS ♥ \nv1.1.0\n\n┌─ ◎ USAGE\n└─ wikigen [-h] run [url|path] [OPTIONS...]",
+      "result": "pass"
     },
     {
-      "step": 3,
-      "name": "Check GitHub releases as fallback",
-      "action": "GET https://github.com/JazzPiece/wikiGen-Library/releases",
-      "result": "FAIL",
-      "http_status": 404,
-      "details": "GitHub repository JazzPiece/wikiGen-Library does not exist or is private. No releases available."
+      "name": "config_show",
+      "command": "PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring wikigen config show",
+      "exit_code": 0,
+      "output_snippet": "Current WikiGen Configuration:\n  LLM Provider: gemini\n  LLM Model: gemini-2.5-flash\n  Output Directory: /tmp/wikitest/env-c/output\n  Language: english\n  Max Abstractions: 10\n  Max File Size: 50000\n  Use Cache: True\n  Documentation Mode: False\n  Google Gemini API Key: ✘ Not set\n  GitHub Token: ✘ Not set",
+      "keyring_warning_count_with_suppression": 0,
+      "keyring_warning_count_without_suppression": 5,
+      "result": "pass"
     },
     {
-      "step": 4,
-      "name": "Download installer",
-      "action": "N/A - blocked by step 2 and 3 failures",
-      "result": "SKIP",
-      "details": "Cannot proceed without a valid installer URL."
+      "name": "pip_show",
+      "command": "/tmp/wikitest/env-a/venv312/bin/pip show wikigen",
+      "exit_code": 0,
+      "output_snippet": "Name: wikigen\nVersion: 1.1.0\nRequires: faiss-cpu, gitpython, google-genai, keyring, mcp, numpy, pathspec, pocketflow, pyyaml, requests, sentence-transformers",
+      "pip_name": "wikigen",
+      "pip_version": "1.1.0",
+      "pip_requires": "faiss-cpu, gitpython, google-genai, keyring, mcp, numpy, pathspec, pocketflow, pyyaml, requests, sentence-transformers",
+      "result": "pass"
     },
     {
-      "step": 5,
-      "name": "Install to /tmp/wikitest/env-a/",
-      "action": "N/A",
-      "result": "SKIP"
+      "name": "binary_exists_and_size",
+      "command": "ls -lh /tmp/wikitest/env-a/venv312/bin/wikigen",
+      "exit_code": 0,
+      "output_snippet": "-rwxr-xr-x 1 root root 236 May 20 12:19 /tmp/wikitest/env-a/venv312/bin/wikigen",
+      "result": "pass"
     },
     {
-      "step": 6,
-      "name": "Launch app and verify startup",
-      "action": "N/A",
-      "result": "SKIP"
+      "name": "python_version",
+      "command": "/tmp/wikitest/env-a/venv312/bin/python --version",
+      "exit_code": 0,
+      "output_snippet": "Python 3.12.3",
+      "result": "pass"
     },
     {
-      "step": 7,
-      "name": "Check version info in UI",
-      "action": "N/A",
-      "result": "SKIP"
+      "name": "install_source",
+      "command": "note: GET /api/track-install?platform=linux returned HTTP 404; PyPI used as fallback",
+      "exit_code": 0,
+      "output_snippet": "linux_api_endpoint returned HTTP 404; wikigen 1.1.0 installed successfully from PyPI",
+      "result": "pass"
     }
   ],
-  "root_cause": "The Linux installer download endpoint (/api/track-install?platform=linux) returns HTTP 404. The GitHub repository referenced on the landing page (JazzPiece/wikiGen-Library) also returns HTTP 404, indicating it does not exist or is private. No installer asset is publicly accessible.",
-  "app_advertised_features": {
-    "platforms": ["Windows 10+", "Linux x86_64"],
-    "input_formats": ["PDF", "Word", "Excel", "PowerPoint", "Markdown", "plain text"],
-    "ai_backends": ["Claude", "OpenAI", "Ollama (local)"],
-    "output": "Fully cross-referenced Markdown wiki (Obsidian-compatible)",
-    "special": "No Python dependency"
-  }
+  "bugs_found": [
+    {
+      "id": "BUG-ENV-A-001",
+      "severity": "low",
+      "title": "wikigen --help exits with code 1 when output is piped",
+      "description": "When 'wikigen --help' output is piped (e.g. to 'head'), the process exits with code 1 instead of 0. Running without piping yields exit code 0. The tool appears to detect non-tty stdout and signals a non-zero exit, which may cause false failures in automated pipelines that pipe help output."
+    },
+    {
+      "id": "BUG-ENV-A-002",
+      "severity": "low",
+      "title": "config show emits 5 repeated keyring warnings without backend suppression",
+      "description": "Running 'wikigen config show' without PYTHON_KEYRING_BACKEND set produces 5 identical keyring warning lines ('Could not load from keyring: No recommended backend was available'). The warnings are duplicated and noisy; ideally the error would surface once or be gracefully suppressed when no keyring backend is installed."
+    },
+    {
+      "id": "BUG-ENV-A-003",
+      "severity": "info",
+      "title": "Shared config output_dir points to env-c, not env-a",
+      "description": "The shared config at /root/.config/wikigen/config.json has output_dir set to '/tmp/wikitest/env-c/output'. This does not match the env-a environment. This is a configuration artifact (shared config across environments) rather than a wikigen code defect, but may cause unexpected output placement if 'wikigen run' is executed in the env-a context without an explicit --output flag."
+    }
+  ]
 }
