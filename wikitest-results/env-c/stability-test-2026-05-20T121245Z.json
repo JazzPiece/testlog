@@ -1,0 +1,99 @@
+{
+  "test_suite": "wikigen 1.1.0 Environment C Edge Case and Stability Tests",
+  "timestamp": "2026-05-20T12:12:45Z",
+  "environment": {
+    "env": "env-c",
+    "python": "3.12",
+    "venv": "/tmp/wikitest/env-c/venv312",
+    "wikigen_path": "/tmp/wikitest/env-c/venv312/bin/wikigen",
+    "config": "/root/.config/wikigen/config.json",
+    "platform": "linux",
+    "os_version": "Linux 6.18.5"
+  },
+  "version_tested": "1.1.0",
+  "overall_result": "PARTIAL_PASS",
+  "stability_tests": [
+    {
+      "name": "large_dataset_many_small_files",
+      "description": "Create 100 .py files (~115 bytes each) and run wikigen with 10s timeout",
+      "result": "PASS",
+      "exit_code": 124,
+      "output_snippet": "\u2713 Complete (100 files, 11.2 KB) [0.0s] | \u27f3 Identifying abstractions... [timed out at LLM step]",
+      "notes": "All 100 files crawled successfully within timeout. Process reached LLM step before 10s timeout expired (exit 124 = timeout, not crash). No crash before LLM step. Process exited cleanly via SIGTERM (timeout), no segfault, no OOM."
+    },
+    {
+      "name": "large_file_over_max_file_size",
+      "description": "Create large.py (~83873 bytes, over 50000 max_file_size) and run wikigen --ci",
+      "result": "FAIL",
+      "exit_code": 1,
+      "output_snippet": "\u25cb large.py | \u2717 Error: An unexpected error occurred | Failed to fetch files | Please check your configuration and try again.",
+      "notes": "large.py is correctly marked as skipped (\u25cb icon, vs \u2193 for read files) due to exceeding max_file_size. However, when ALL files in a directory are skipped, wikigen emits a generic 'Failed to fetch files' error (exit 1) instead of a graceful user-friendly message. BUG: No files fetched case should produce a descriptive error, not a generic one."
+    },
+    {
+      "name": "concurrent_invocations",
+      "description": "Launch two wikigen processes simultaneously: one against large-project, one against bigfile",
+      "result": "PASS",
+      "exit_code": "P1=124 (timeout), P2=1 (no valid files)",
+      "output_snippet": "P1: \u2713 Complete (100 files, 11.2 KB) then LLM step (timed out). P2: \u2717 Error: Failed to fetch files",
+      "notes": "Both processes ran independently without interfering with each other. No shared-state corruption observed. P1 crawled 100 files and reached LLM step (timeout); P2 failed cleanly with its known single-large-file bug. No deadlock, no segfault, no OOM kill."
+    },
+    {
+      "name": "config_set_then_run",
+      "description": "Set max_file_size to 1000 via 'wikigen config set', run against large file and small file, reset to 50000",
+      "result": "PASS",
+      "exit_code": 0,
+      "output_snippet": "\u2713 Updated max_file_size to 1000 | large.py \u25cb (skipped at 1000 limit) | small module_001.py \u2193 (115 bytes, read OK)",
+      "notes": "Config change via 'wikigen config set max_file_size 1000' was immediately persisted and respected. large.py (83873 bytes) was skipped under the new 1000-byte limit. A 115-byte small file was correctly read. Reset to 50000 succeeded. Config persistence works correctly."
+    },
+    {
+      "name": "no_argument_run_auto_current_dir",
+      "description": "cd to large-project and run 'wikigen run --ci --output ...' without explicit path argument",
+      "result": "PASS",
+      "exit_code": 0,
+      "output_snippet": "\u25c6 Repository: /tmp/wikitest/env-c/large-project | \u2713 Complete (100 files, 11.2 KB) [0.0s]",
+      "notes": "Auto-detection of current directory works correctly. wikigen used CWD (/tmp/wikitest/env-c/large-project) as repository path when no explicit path was given. All 100 files crawled. Side effect observed: wikigen creates a logs/ subdirectory inside the crawled repository (see bugs_found)."
+    },
+    {
+      "name": "corrupted_config_recovery",
+      "description": "Write '{invalid json !!@#$' to config.json, run wikigen, capture behavior, restore config",
+      "result": "PASS_WITH_WARNINGS",
+      "exit_code": 124,
+      "output_snippet": "\u26a0 Warning: Could not load config file: Expecting property name enclosed in double quotes: line 1 column 2 (char 1) | Process continued with defaults",
+      "notes": "wikigen recovers gracefully from corrupted config: emits a warning on stderr but continues with built-in defaults. Process did NOT crash. Exit 124 is due to timeout reaching LLM step, not a config failure. Secondary bug: the warning is emitted multiple times (4x observed) during the run, suggesting config is re-read per-operation rather than once at startup. Config restored to valid state after test."
+    },
+    {
+      "name": "memory_process_health_check",
+      "description": "Assess process health across all tests",
+      "result": "PASS",
+      "exit_code": "N/A",
+      "output_snippet": "All processes exited via expected codes (0, 1, 124). No SIGSEGV, no OOM kill signals.",
+      "notes": "Test 1: exit 124 (timeout/SIGTERM, clean). Test 2: exit 1 (application error, clean). Test 3: P1 exit 124 (SIGTERM), P2 exit 1 (app error), both clean. Test 4: exit 0 (success), clean. Test 5: exit 0 (success), clean. Test 6: exit 124 (SIGTERM), clean. No memory corruption or segfaults observed across any test."
+    }
+  ],
+  "bugs_found": [
+    {
+      "id": "EC-BUG-001",
+      "severity": "medium",
+      "title": "Generic 'Failed to fetch files' error when all files exceed max_file_size",
+      "description": "When a directory is scanned and every file is skipped because it exceeds max_file_size, wikigen exits with code 1 and the generic message 'An unexpected error occurred / Failed to fetch files / Please check your configuration and try again.' instead of a descriptive, actionable error such as 'No files within size limit found in /path. All N file(s) exceeded max_file_size=50000. Consider increasing max_file_size with: wikigen config set max_file_size <value>'. Reproducible with /tmp/wikitest/env-c/bigfile/ (large.py = 83873 bytes, max_file_size = 50000)."
+    },
+    {
+      "id": "EC-BUG-002",
+      "severity": "low",
+      "title": "wikigen writes logs/ directory into the target repository being analyzed",
+      "description": "During analysis of /tmp/wikitest/env-c/large-project, wikigen created /tmp/wikitest/env-c/large-project/logs/llm_calls_20260520.log (empty file). This pollutes the source repository with tool artifacts. On subsequent crawls, the logs/ directory and its files appear in the directory listing (\u25cb skipped due to .log extension, but the directory itself is visible). Log files should be written to --output, to a user's cache/data directory (e.g., ~/.local/share/wikigen/logs/), or to a temp dir \u2014 never inside the repository under analysis."
+    },
+    {
+      "id": "EC-BUG-003",
+      "severity": "low",
+      "title": "Corrupted config warning emitted multiple times per run",
+      "description": "When /root/.config/wikigen/config.json contains invalid JSON, the warning 'Could not load config file: ...' is emitted 4+ times during a single wikigen run (observed in test 6). This suggests the config file is re-read on each sub-operation (e.g., each LLM call or subprocess) rather than being parsed once at startup and passed in-memory. The warning should appear once, clearly, at startup."
+    },
+    {
+      "id": "EC-BUG-004",
+      "severity": "info",
+      "title": "Global config file is shared across all wikigen environments/invocations",
+      "description": "The config file at /root/.config/wikigen/config.json is a single global file. During the test session, a prior environment's wikigen invocation overwrote the file with different settings (llm_provider: gemini, language: Spanish, etc.), causing test 2 to initially run with unexpected settings. There is no per-project or per-invocation config isolation. This is by design for a CLI tool but can cause inter-test interference in multi-environment test scenarios."
+    }
+  ]
+}

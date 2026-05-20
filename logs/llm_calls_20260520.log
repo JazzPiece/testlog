@@ -1,0 +1,6702 @@
+2026-05-20 12:24:02,646 - INFO - PROMPT: 
+For the project `large-project`:
+
+Codebase Context:
+--- File Index 0: module_043.py ---
+# Module 043
+def function_043(x):
+    """Function number 043."""
+    return x * 043
+
+result_043 = function_043(42)
+
+
+--- File Index 1: module_079.py ---
+# Module 079
+def function_079(x):
+    """Function number 079."""
+    return x * 079
+
+result_079 = function_079(42)
+
+
+--- File Index 2: module_072.py ---
+# Module 072
+def function_072(x):
+    """Function number 072."""
+    return x * 072
+
+result_072 = function_072(42)
+
+
+--- File Index 3: module_097.py ---
+# Module 097
+def function_097(x):
+    """Function number 097."""
+    return x * 097
+
+result_097 = function_097(42)
+
+
+--- File Index 4: module_063.py ---
+# Module 063
+def function_063(x):
+    """Function number 063."""
+    return x * 063
+
+result_063 = function_063(42)
+
+
+--- File Index 5: module_033.py ---
+# Module 033
+def function_033(x):
+    """Function number 033."""
+    return x * 033
+
+result_033 = function_033(42)
+
+
+--- File Index 6: module_061.py ---
+# Module 061
+def function_061(x):
+    """Function number 061."""
+    return x * 061
+
+result_061 = function_061(42)
+
+
+--- File Index 7: module_100.py ---
+# Module 100
+def function_100(x):
+    """Function number 100."""
+    return x * 100
+
+result_100 = function_100(42)
+
+
+--- File Index 8: module_024.py ---
+# Module 024
+def function_024(x):
+    """Function number 024."""
+    return x * 024
+
+result_024 = function_024(42)
+
+
+--- File Index 9: module_095.py ---
+# Module 095
+def function_095(x):
+    """Function number 095."""
+    return x * 095
+
+result_095 = function_095(42)
+
+
+--- File Index 10: module_051.py ---
+# Module 051
+def function_051(x):
+    """Function number 051."""
+    return x * 051
+
+result_051 = function_051(42)
+
+
+--- File Index 11: module_018.py ---
+# Module 018
+def function_018(x):
+    """Function number 018."""
+    return x * 018
+
+result_018 = function_018(42)
+
+
+--- File Index 12: module_046.py ---
+# Module 046
+def function_046(x):
+    """Function number 046."""
+    return x * 046
+
+result_046 = function_046(42)
+
+
+--- File Index 13: module_047.py ---
+# Module 047
+def function_047(x):
+    """Function number 047."""
+    return x * 047
+
+result_047 = function_047(42)
+
+
+--- File Index 14: module_085.py ---
+# Module 085
+def function_085(x):
+    """Function number 085."""
+    return x * 085
+
+result_085 = function_085(42)
+
+
+--- File Index 15: module_045.py ---
+# Module 045
+def function_045(x):
+    """Function number 045."""
+    return x * 045
+
+result_045 = function_045(42)
+
+
+--- File Index 16: module_027.py ---
+# Module 027
+def function_027(x):
+    """Function number 027."""
+    return x * 027
+
+result_027 = function_027(42)
+
+
+--- File Index 17: module_058.py ---
+# Module 058
+def function_058(x):
+    """Function number 058."""
+    return x * 058
+
+result_058 = function_058(42)
+
+
+--- File Index 18: module_037.py ---
+# Module 037
+def function_037(x):
+    """Function number 037."""
+    return x * 037
+
+result_037 = function_037(42)
+
+
+--- File Index 19: module_007.py ---
+# Module 007
+def function_007(x):
+    """Function number 007."""
+    return x * 007
+
+result_007 = function_007(42)
+
+
+--- File Index 20: module_038.py ---
+# Module 038
+def function_038(x):
+    """Function number 038."""
+    return x * 038
+
+result_038 = function_038(42)
+
+
+--- File Index 21: module_078.py ---
+# Module 078
+def function_078(x):
+    """Function number 078."""
+    return x * 078
+
+result_078 = function_078(42)
+
+
+--- File Index 22: module_088.py ---
+# Module 088
+def function_088(x):
+    """Function number 088."""
+    return x * 088
+
+result_088 = function_088(42)
+
+
+--- File Index 23: module_004.py ---
+# Module 004
+def function_004(x):
+    """Function number 004."""
+    return x * 004
+
+result_004 = function_004(42)
+
+
+--- File Index 24: module_090.py ---
+# Module 090
+def function_090(x):
+    """Function number 090."""
+    return x * 090
+
+result_090 = function_090(42)
+
+
+--- File Index 25: module_080.py ---
+# Module 080
+def function_080(x):
+    """Function number 080."""
+    return x * 080
+
+result_080 = function_080(42)
+
+
+--- File Index 26: module_081.py ---
+# Module 081
+def function_081(x):
+    """Function number 081."""
+    return x * 081
+
+result_081 = function_081(42)
+
+
+--- File Index 27: module_060.py ---
+# Module 060
+def function_060(x):
+    """Function number 060."""
+    return x * 060
+
+result_060 = function_060(42)
+
+
+--- File Index 28: module_094.py ---
+# Module 094
+def function_094(x):
+    """Function number 094."""
+    return x * 094
+
+result_094 = function_094(42)
+
+
+--- File Index 29: module_041.py ---
+# Module 041
+def function_041(x):
+    """Function number 041."""
+    return x * 041
+
+result_041 = function_041(42)
+
+
+--- File Index 30: module_021.py ---
+# Module 021
+def function_021(x):
+    """Function number 021."""
+    return x * 021
+
+result_021 = function_021(42)
+
+
+--- File Index 31: module_039.py ---
+# Module 039
+def function_039(x):
+    """Function number 039."""
+    return x * 039
+
+result_039 = function_039(42)
+
+
+--- File Index 32: module_093.py ---
+# Module 093
+def function_093(x):
+    """Function number 093."""
+    return x * 093
+
+result_093 = function_093(42)
+
+
+--- File Index 33: module_056.py ---
+# Module 056
+def function_056(x):
+    """Function number 056."""
+    return x * 056
+
+result_056 = function_056(42)
+
+
+--- File Index 34: module_096.py ---
+# Module 096
+def function_096(x):
+    """Function number 096."""
+    return x * 096
+
+result_096 = function_096(42)
+
+
+--- File Index 35: module_069.py ---
+# Module 069
+def function_069(x):
+    """Function number 069."""
+    return x * 069
+
+result_069 = function_069(42)
+
+
+--- File Index 36: module_001.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+--- File Index 37: module_066.py ---
+# Module 066
+def function_066(x):
+    """Function number 066."""
+    return x * 066
+
+result_066 = function_066(42)
+
+
+--- File Index 38: module_086.py ---
+# Module 086
+def function_086(x):
+    """Function number 086."""
+    return x * 086
+
+result_086 = function_086(42)
+
+
+--- File Index 39: module_054.py ---
+# Module 054
+def function_054(x):
+    """Function number 054."""
+    return x * 054
+
+result_054 = function_054(42)
+
+
+--- File Index 40: module_008.py ---
+# Module 008
+def function_008(x):
+    """Function number 008."""
+    return x * 008
+
+result_008 = function_008(42)
+
+
+--- File Index 41: module_032.py ---
+# Module 032
+def function_032(x):
+    """Function number 032."""
+    return x * 032
+
+result_032 = function_032(42)
+
+
+--- File Index 42: module_098.py ---
+# Module 098
+def function_098(x):
+    """Function number 098."""
+    return x * 098
+
+result_098 = function_098(42)
+
+
+--- File Index 43: module_076.py ---
+# Module 076
+def function_076(x):
+    """Function number 076."""
+    return x * 076
+
+result_076 = function_076(42)
+
+
+--- File Index 44: module_020.py ---
+# Module 020
+def function_020(x):
+    """Function number 020."""
+    return x * 020
+
+result_020 = function_020(42)
+
+
+--- File Index 45: module_073.py ---
+# Module 073
+def function_073(x):
+    """Function number 073."""
+    return x * 073
+
+result_073 = function_073(42)
+
+
+--- File Index 46: module_030.py ---
+# Module 030
+def function_030(x):
+    """Function number 030."""
+    return x * 030
+
+result_030 = function_030(42)
+
+
+--- File Index 47: module_071.py ---
+# Module 071
+def function_071(x):
+    """Function number 071."""
+    return x * 071
+
+result_071 = function_071(42)
+
+
+--- File Index 48: module_025.py ---
+# Module 025
+def function_025(x):
+    """Function number 025."""
+    return x * 025
+
+result_025 = function_025(42)
+
+
+--- File Index 49: module_042.py ---
+# Module 042
+def function_042(x):
+    """Function number 042."""
+    return x * 042
+
+result_042 = function_042(42)
+
+
+--- File Index 50: module_089.py ---
+# Module 089
+def function_089(x):
+    """Function number 089."""
+    return x * 089
+
+result_089 = function_089(42)
+
+
+--- File Index 51: module_003.py ---
+# Module 003
+def function_003(x):
+    """Function number 003."""
+    return x * 003
+
+result_003 = function_003(42)
+
+
+--- File Index 52: module_002.py ---
+# Module 002
+def function_002(x):
+    """Function number 002."""
+    return x * 002
+
+result_002 = function_002(42)
+
+
+--- File Index 53: module_084.py ---
+# Module 084
+def function_084(x):
+    """Function number 084."""
+    return x * 084
+
+result_084 = function_084(42)
+
+
+--- File Index 54: module_012.py ---
+# Module 012
+def function_012(x):
+    """Function number 012."""
+    return x * 012
+
+result_012 = function_012(42)
+
+
+--- File Index 55: module_064.py ---
+# Module 064
+def function_064(x):
+    """Function number 064."""
+    return x * 064
+
+result_064 = function_064(42)
+
+
+--- File Index 56: module_044.py ---
+# Module 044
+def function_044(x):
+    """Function number 044."""
+    return x * 044
+
+result_044 = function_044(42)
+
+
+--- File Index 57: module_077.py ---
+# Module 077
+def function_077(x):
+    """Function number 077."""
+    return x * 077
+
+result_077 = function_077(42)
+
+
+--- File Index 58: module_028.py ---
+# Module 028
+def function_028(x):
+    """Function number 028."""
+    return x * 028
+
+result_028 = function_028(42)
+
+
+--- File Index 59: module_083.py ---
+# Module 083
+def function_083(x):
+    """Function number 083."""
+    return x * 083
+
+result_083 = function_083(42)
+
+
+--- File Index 60: module_016.py ---
+# Module 016
+def function_016(x):
+    """Function number 016."""
+    return x * 016
+
+result_016 = function_016(42)
+
+
+--- File Index 61: module_035.py ---
+# Module 035
+def function_035(x):
+    """Function number 035."""
+    return x * 035
+
+result_035 = function_035(42)
+
+
+--- File Index 62: module_005.py ---
+# Module 005
+def function_005(x):
+    """Function number 005."""
+    return x * 005
+
+result_005 = function_005(42)
+
+
+--- File Index 63: module_026.py ---
+# Module 026
+def function_026(x):
+    """Function number 026."""
+    return x * 026
+
+result_026 = function_026(42)
+
+
+--- File Index 64: module_074.py ---
+# Module 074
+def function_074(x):
+    """Function number 074."""
+    return x * 074
+
+result_074 = function_074(42)
+
+
+--- File Index 65: module_009.py ---
+# Module 009
+def function_009(x):
+    """Function number 009."""
+    return x * 009
+
+result_009 = function_009(42)
+
+
+--- File Index 66: module_036.py ---
+# Module 036
+def function_036(x):
+    """Function number 036."""
+    return x * 036
+
+result_036 = function_036(42)
+
+
+--- File Index 67: module_068.py ---
+# Module 068
+def function_068(x):
+    """Function number 068."""
+    return x * 068
+
+result_068 = function_068(42)
+
+
+--- File Index 68: module_065.py ---
+# Module 065
+def function_065(x):
+    """Function number 065."""
+    return x * 065
+
+result_065 = function_065(42)
+
+
+--- File Index 69: module_015.py ---
+# Module 015
+def function_015(x):
+    """Function number 015."""
+    return x * 015
+
+result_015 = function_015(42)
+
+
+--- File Index 70: module_092.py ---
+# Module 092
+def function_092(x):
+    """Function number 092."""
+    return x * 092
+
+result_092 = function_092(42)
+
+
+--- File Index 71: module_050.py ---
+# Module 050
+def function_050(x):
+    """Function number 050."""
+    return x * 050
+
+result_050 = function_050(42)
+
+
+--- File Index 72: module_022.py ---
+# Module 022
+def function_022(x):
+    """Function number 022."""
+    return x * 022
+
+result_022 = function_022(42)
+
+
+--- File Index 73: module_034.py ---
+# Module 034
+def function_034(x):
+    """Function number 034."""
+    return x * 034
+
+result_034 = function_034(42)
+
+
+--- File Index 74: module_082.py ---
+# Module 082
+def function_082(x):
+    """Function number 082."""
+    return x * 082
+
+result_082 = function_082(42)
+
+
+--- File Index 75: module_087.py ---
+# Module 087
+def function_087(x):
+    """Function number 087."""
+    return x * 087
+
+result_087 = function_087(42)
+
+
+--- File Index 76: module_048.py ---
+# Module 048
+def function_048(x):
+    """Function number 048."""
+    return x * 048
+
+result_048 = function_048(42)
+
+
+--- File Index 77: module_053.py ---
+# Module 053
+def function_053(x):
+    """Function number 053."""
+    return x * 053
+
+result_053 = function_053(42)
+
+
+--- File Index 78: module_023.py ---
+# Module 023
+def function_023(x):
+    """Function number 023."""
+    return x * 023
+
+result_023 = function_023(42)
+
+
+--- File Index 79: module_055.py ---
+# Module 055
+def function_055(x):
+    """Function number 055."""
+    return x * 055
+
+result_055 = function_055(42)
+
+
+--- File Index 80: module_017.py ---
+# Module 017
+def function_017(x):
+    """Function number 017."""
+    return x * 017
+
+result_017 = function_017(42)
+
+
+--- File Index 81: module_091.py ---
+# Module 091
+def function_091(x):
+    """Function number 091."""
+    return x * 091
+
+result_091 = function_091(42)
+
+
+--- File Index 82: module_075.py ---
+# Module 075
+def function_075(x):
+    """Function number 075."""
+    return x * 075
+
+result_075 = function_075(42)
+
+
+--- File Index 83: module_010.py ---
+# Module 010
+def function_010(x):
+    """Function number 010."""
+    return x * 010
+
+result_010 = function_010(42)
+
+
+--- File Index 84: module_029.py ---
+# Module 029
+def function_029(x):
+    """Function number 029."""
+    return x * 029
+
+result_029 = function_029(42)
+
+
+--- File Index 85: module_019.py ---
+# Module 019
+def function_019(x):
+    """Function number 019."""
+    return x * 019
+
+result_019 = function_019(42)
+
+
+--- File Index 86: module_049.py ---
+# Module 049
+def function_049(x):
+    """Function number 049."""
+    return x * 049
+
+result_049 = function_049(42)
+
+
+--- File Index 87: module_052.py ---
+# Module 052
+def function_052(x):
+    """Function number 052."""
+    return x * 052
+
+result_052 = function_052(42)
+
+
+--- File Index 88: module_057.py ---
+# Module 057
+def function_057(x):
+    """Function number 057."""
+    return x * 057
+
+result_057 = function_057(42)
+
+
+--- File Index 89: module_013.py ---
+# Module 013
+def function_013(x):
+    """Function number 013."""
+    return x * 013
+
+result_013 = function_013(42)
+
+
+--- File Index 90: module_031.py ---
+# Module 031
+def function_031(x):
+    """Function number 031."""
+    return x * 031
+
+result_031 = function_031(42)
+
+
+--- File Index 91: module_014.py ---
+# Module 014
+def function_014(x):
+    """Function number 014."""
+    return x * 014
+
+result_014 = function_014(42)
+
+
+--- File Index 92: module_006.py ---
+# Module 006
+def function_006(x):
+    """Function number 006."""
+    return x * 006
+
+result_006 = function_006(42)
+
+
+--- File Index 93: module_067.py ---
+# Module 067
+def function_067(x):
+    """Function number 067."""
+    return x * 067
+
+result_067 = function_067(42)
+
+
+--- File Index 94: module_099.py ---
+# Module 099
+def function_099(x):
+    """Function number 099."""
+    return x * 099
+
+result_099 = function_099(42)
+
+
+--- File Index 95: module_062.py ---
+# Module 062
+def function_062(x):
+    """Function number 062."""
+    return x * 062
+
+result_062 = function_062(42)
+
+
+--- File Index 96: module_040.py ---
+# Module 040
+def function_040(x):
+    """Function number 040."""
+    return x * 040
+
+result_040 = function_040(42)
+
+
+--- File Index 97: module_070.py ---
+# Module 070
+def function_070(x):
+    """Function number 070."""
+    return x * 070
+
+result_070 = function_070(42)
+
+
+--- File Index 98: module_011.py ---
+# Module 011
+def function_011(x):
+    """Function number 011."""
+    return x * 011
+
+result_011 = function_011(42)
+
+
+--- File Index 99: module_059.py ---
+# Module 059
+def function_059(x):
+    """Function number 059."""
+    return x * 059
+
+result_059 = function_059(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # module_043.py
+- 1 # module_079.py
+- 2 # module_072.py
+- 3 # module_097.py
+- 4 # module_063.py
+- 5 # module_033.py
+- 6 # module_061.py
+- 7 # module_100.py
+- 8 # module_024.py
+- 9 # module_095.py
+- 10 # module_051.py
+- 11 # module_018.py
+- 12 # module_046.py
+- 13 # module_047.py
+- 14 # module_085.py
+- 15 # module_045.py
+- 16 # module_027.py
+- 17 # module_058.py
+- 18 # module_037.py
+- 19 # module_007.py
+- 20 # module_038.py
+- 21 # module_078.py
+- 22 # module_088.py
+- 23 # module_004.py
+- 24 # module_090.py
+- 25 # module_080.py
+- 26 # module_081.py
+- 27 # module_060.py
+- 28 # module_094.py
+- 29 # module_041.py
+- 30 # module_021.py
+- 31 # module_039.py
+- 32 # module_093.py
+- 33 # module_056.py
+- 34 # module_096.py
+- 35 # module_069.py
+- 36 # module_001.py
+- 37 # module_066.py
+- 38 # module_086.py
+- 39 # module_054.py
+- 40 # module_008.py
+- 41 # module_032.py
+- 42 # module_098.py
+- 43 # module_076.py
+- 44 # module_020.py
+- 45 # module_073.py
+- 46 # module_030.py
+- 47 # module_071.py
+- 48 # module_025.py
+- 49 # module_042.py
+- 50 # module_089.py
+- 51 # module_003.py
+- 52 # module_002.py
+- 53 # module_084.py
+- 54 # module_012.py
+- 55 # module_064.py
+- 56 # module_044.py
+- 57 # module_077.py
+- 58 # module_028.py
+- 59 # module_083.py
+- 60 # module_016.py
+- 61 # module_035.py
+- 62 # module_005.py
+- 63 # module_026.py
+- 64 # module_074.py
+- 65 # module_009.py
+- 66 # module_036.py
+- 67 # module_068.py
+- 68 # module_065.py
+- 69 # module_015.py
+- 70 # module_092.py
+- 71 # module_050.py
+- 72 # module_022.py
+- 73 # module_034.py
+- 74 # module_082.py
+- 75 # module_087.py
+- 76 # module_048.py
+- 77 # module_053.py
+- 78 # module_023.py
+- 79 # module_055.py
+- 80 # module_017.py
+- 81 # module_091.py
+- 82 # module_075.py
+- 83 # module_010.py
+- 84 # module_029.py
+- 85 # module_019.py
+- 86 # module_049.py
+- 87 # module_052.py
+- 88 # module_057.py
+- 89 # module_013.py
+- 90 # module_031.py
+- 91 # module_014.py
+- 92 # module_006.py
+- 93 # module_067.py
+- 94 # module_099.py
+- 95 # module_062.py
+- 96 # module_040.py
+- 97 # module_070.py
+- 98 # module_011.py
+- 99 # module_059.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:24:06,939 - INFO - PROMPT: 
+For the project `TestProject`:
+
+Codebase Context:
+--- File Index 0: main.py ---
+"""Main entry point for TestProject."""
+from hello import say_hello
+from utils import file_exists
+
+
+def main():
+    """Run the main program logic."""
+    print(say_hello("World"))
+    if file_exists("config.txt"):
+        print("Config found.")
+    else:
+        print("No config file.")
+
+
+if __name__ == "__main__":
+    main()
+
+
+--- File Index 1: hello.py ---
+"""Hello module for TestProject."""
+
+
+def say_hello(name: str) -> str:
+    """Return a greeting string."""
+    return f"Hello, {name}!"
+
+
+def say_goodbye(name: str) -> str:
+    """Return a farewell string."""
+    return f"Goodbye, {name}!"
+
+
+--- File Index 2: utils.py ---
+"""Utility functions for TestProject."""
+import os
+
+
+def read_file(path: str) -> str:
+    """Read and return file contents."""
+    with open(path, "r") as f:
+        return f.read()
+
+
+def file_exists(path: str) -> bool:
+    """Check if a file exists."""
+    return os.path.isfile(path)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # main.py
+- 1 # hello.py
+- 2 # utils.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:24:18,366 - INFO - PROMPT: 
+For the project `TestProject`:
+
+Codebase Context:
+--- File Index 0: main.py ---
+"""Main entry point for TestProject."""
+from hello import say_hello
+from utils import file_exists
+
+
+def main():
+    """Run the main program logic."""
+    print(say_hello("World"))
+    if file_exists("config.txt"):
+        print("Config found.")
+    else:
+        print("No config file.")
+
+
+if __name__ == "__main__":
+    main()
+
+
+--- File Index 1: hello.py ---
+"""Hello module for TestProject."""
+
+
+def say_hello(name: str) -> str:
+    """Return a greeting string."""
+    return f"Hello, {name}!"
+
+
+def say_goodbye(name: str) -> str:
+    """Return a farewell string."""
+    return f"Goodbye, {name}!"
+
+
+--- File Index 2: utils.py ---
+"""Utility functions for TestProject."""
+import os
+
+
+def read_file(path: str) -> str:
+    """Read and return file contents."""
+    with open(path, "r") as f:
+        return f.read()
+
+
+def file_exists(path: str) -> bool:
+    """Check if a file exists."""
+    return os.path.isfile(path)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # main.py
+- 1 # hello.py
+- 2 # utils.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:24:22,647 - INFO - PROMPT: 
+For the project `large-project`:
+
+Codebase Context:
+--- File Index 0: module_043.py ---
+# Module 043
+def function_043(x):
+    """Function number 043."""
+    return x * 043
+
+result_043 = function_043(42)
+
+
+--- File Index 1: module_079.py ---
+# Module 079
+def function_079(x):
+    """Function number 079."""
+    return x * 079
+
+result_079 = function_079(42)
+
+
+--- File Index 2: module_072.py ---
+# Module 072
+def function_072(x):
+    """Function number 072."""
+    return x * 072
+
+result_072 = function_072(42)
+
+
+--- File Index 3: module_097.py ---
+# Module 097
+def function_097(x):
+    """Function number 097."""
+    return x * 097
+
+result_097 = function_097(42)
+
+
+--- File Index 4: module_063.py ---
+# Module 063
+def function_063(x):
+    """Function number 063."""
+    return x * 063
+
+result_063 = function_063(42)
+
+
+--- File Index 5: module_033.py ---
+# Module 033
+def function_033(x):
+    """Function number 033."""
+    return x * 033
+
+result_033 = function_033(42)
+
+
+--- File Index 6: module_061.py ---
+# Module 061
+def function_061(x):
+    """Function number 061."""
+    return x * 061
+
+result_061 = function_061(42)
+
+
+--- File Index 7: module_100.py ---
+# Module 100
+def function_100(x):
+    """Function number 100."""
+    return x * 100
+
+result_100 = function_100(42)
+
+
+--- File Index 8: module_024.py ---
+# Module 024
+def function_024(x):
+    """Function number 024."""
+    return x * 024
+
+result_024 = function_024(42)
+
+
+--- File Index 9: module_095.py ---
+# Module 095
+def function_095(x):
+    """Function number 095."""
+    return x * 095
+
+result_095 = function_095(42)
+
+
+--- File Index 10: module_051.py ---
+# Module 051
+def function_051(x):
+    """Function number 051."""
+    return x * 051
+
+result_051 = function_051(42)
+
+
+--- File Index 11: module_018.py ---
+# Module 018
+def function_018(x):
+    """Function number 018."""
+    return x * 018
+
+result_018 = function_018(42)
+
+
+--- File Index 12: module_046.py ---
+# Module 046
+def function_046(x):
+    """Function number 046."""
+    return x * 046
+
+result_046 = function_046(42)
+
+
+--- File Index 13: module_047.py ---
+# Module 047
+def function_047(x):
+    """Function number 047."""
+    return x * 047
+
+result_047 = function_047(42)
+
+
+--- File Index 14: module_085.py ---
+# Module 085
+def function_085(x):
+    """Function number 085."""
+    return x * 085
+
+result_085 = function_085(42)
+
+
+--- File Index 15: module_045.py ---
+# Module 045
+def function_045(x):
+    """Function number 045."""
+    return x * 045
+
+result_045 = function_045(42)
+
+
+--- File Index 16: module_027.py ---
+# Module 027
+def function_027(x):
+    """Function number 027."""
+    return x * 027
+
+result_027 = function_027(42)
+
+
+--- File Index 17: module_058.py ---
+# Module 058
+def function_058(x):
+    """Function number 058."""
+    return x * 058
+
+result_058 = function_058(42)
+
+
+--- File Index 18: module_037.py ---
+# Module 037
+def function_037(x):
+    """Function number 037."""
+    return x * 037
+
+result_037 = function_037(42)
+
+
+--- File Index 19: module_007.py ---
+# Module 007
+def function_007(x):
+    """Function number 007."""
+    return x * 007
+
+result_007 = function_007(42)
+
+
+--- File Index 20: module_038.py ---
+# Module 038
+def function_038(x):
+    """Function number 038."""
+    return x * 038
+
+result_038 = function_038(42)
+
+
+--- File Index 21: module_078.py ---
+# Module 078
+def function_078(x):
+    """Function number 078."""
+    return x * 078
+
+result_078 = function_078(42)
+
+
+--- File Index 22: module_088.py ---
+# Module 088
+def function_088(x):
+    """Function number 088."""
+    return x * 088
+
+result_088 = function_088(42)
+
+
+--- File Index 23: module_004.py ---
+# Module 004
+def function_004(x):
+    """Function number 004."""
+    return x * 004
+
+result_004 = function_004(42)
+
+
+--- File Index 24: module_090.py ---
+# Module 090
+def function_090(x):
+    """Function number 090."""
+    return x * 090
+
+result_090 = function_090(42)
+
+
+--- File Index 25: module_080.py ---
+# Module 080
+def function_080(x):
+    """Function number 080."""
+    return x * 080
+
+result_080 = function_080(42)
+
+
+--- File Index 26: module_081.py ---
+# Module 081
+def function_081(x):
+    """Function number 081."""
+    return x * 081
+
+result_081 = function_081(42)
+
+
+--- File Index 27: module_060.py ---
+# Module 060
+def function_060(x):
+    """Function number 060."""
+    return x * 060
+
+result_060 = function_060(42)
+
+
+--- File Index 28: module_094.py ---
+# Module 094
+def function_094(x):
+    """Function number 094."""
+    return x * 094
+
+result_094 = function_094(42)
+
+
+--- File Index 29: module_041.py ---
+# Module 041
+def function_041(x):
+    """Function number 041."""
+    return x * 041
+
+result_041 = function_041(42)
+
+
+--- File Index 30: module_021.py ---
+# Module 021
+def function_021(x):
+    """Function number 021."""
+    return x * 021
+
+result_021 = function_021(42)
+
+
+--- File Index 31: module_039.py ---
+# Module 039
+def function_039(x):
+    """Function number 039."""
+    return x * 039
+
+result_039 = function_039(42)
+
+
+--- File Index 32: module_093.py ---
+# Module 093
+def function_093(x):
+    """Function number 093."""
+    return x * 093
+
+result_093 = function_093(42)
+
+
+--- File Index 33: module_056.py ---
+# Module 056
+def function_056(x):
+    """Function number 056."""
+    return x * 056
+
+result_056 = function_056(42)
+
+
+--- File Index 34: module_096.py ---
+# Module 096
+def function_096(x):
+    """Function number 096."""
+    return x * 096
+
+result_096 = function_096(42)
+
+
+--- File Index 35: module_069.py ---
+# Module 069
+def function_069(x):
+    """Function number 069."""
+    return x * 069
+
+result_069 = function_069(42)
+
+
+--- File Index 36: module_001.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+--- File Index 37: module_066.py ---
+# Module 066
+def function_066(x):
+    """Function number 066."""
+    return x * 066
+
+result_066 = function_066(42)
+
+
+--- File Index 38: module_086.py ---
+# Module 086
+def function_086(x):
+    """Function number 086."""
+    return x * 086
+
+result_086 = function_086(42)
+
+
+--- File Index 39: module_054.py ---
+# Module 054
+def function_054(x):
+    """Function number 054."""
+    return x * 054
+
+result_054 = function_054(42)
+
+
+--- File Index 40: module_008.py ---
+# Module 008
+def function_008(x):
+    """Function number 008."""
+    return x * 008
+
+result_008 = function_008(42)
+
+
+--- File Index 41: module_032.py ---
+# Module 032
+def function_032(x):
+    """Function number 032."""
+    return x * 032
+
+result_032 = function_032(42)
+
+
+--- File Index 42: module_098.py ---
+# Module 098
+def function_098(x):
+    """Function number 098."""
+    return x * 098
+
+result_098 = function_098(42)
+
+
+--- File Index 43: module_076.py ---
+# Module 076
+def function_076(x):
+    """Function number 076."""
+    return x * 076
+
+result_076 = function_076(42)
+
+
+--- File Index 44: module_020.py ---
+# Module 020
+def function_020(x):
+    """Function number 020."""
+    return x * 020
+
+result_020 = function_020(42)
+
+
+--- File Index 45: module_073.py ---
+# Module 073
+def function_073(x):
+    """Function number 073."""
+    return x * 073
+
+result_073 = function_073(42)
+
+
+--- File Index 46: module_030.py ---
+# Module 030
+def function_030(x):
+    """Function number 030."""
+    return x * 030
+
+result_030 = function_030(42)
+
+
+--- File Index 47: module_071.py ---
+# Module 071
+def function_071(x):
+    """Function number 071."""
+    return x * 071
+
+result_071 = function_071(42)
+
+
+--- File Index 48: module_025.py ---
+# Module 025
+def function_025(x):
+    """Function number 025."""
+    return x * 025
+
+result_025 = function_025(42)
+
+
+--- File Index 49: module_042.py ---
+# Module 042
+def function_042(x):
+    """Function number 042."""
+    return x * 042
+
+result_042 = function_042(42)
+
+
+--- File Index 50: module_089.py ---
+# Module 089
+def function_089(x):
+    """Function number 089."""
+    return x * 089
+
+result_089 = function_089(42)
+
+
+--- File Index 51: module_003.py ---
+# Module 003
+def function_003(x):
+    """Function number 003."""
+    return x * 003
+
+result_003 = function_003(42)
+
+
+--- File Index 52: module_002.py ---
+# Module 002
+def function_002(x):
+    """Function number 002."""
+    return x * 002
+
+result_002 = function_002(42)
+
+
+--- File Index 53: module_084.py ---
+# Module 084
+def function_084(x):
+    """Function number 084."""
+    return x * 084
+
+result_084 = function_084(42)
+
+
+--- File Index 54: module_012.py ---
+# Module 012
+def function_012(x):
+    """Function number 012."""
+    return x * 012
+
+result_012 = function_012(42)
+
+
+--- File Index 55: module_064.py ---
+# Module 064
+def function_064(x):
+    """Function number 064."""
+    return x * 064
+
+result_064 = function_064(42)
+
+
+--- File Index 56: module_044.py ---
+# Module 044
+def function_044(x):
+    """Function number 044."""
+    return x * 044
+
+result_044 = function_044(42)
+
+
+--- File Index 57: module_077.py ---
+# Module 077
+def function_077(x):
+    """Function number 077."""
+    return x * 077
+
+result_077 = function_077(42)
+
+
+--- File Index 58: module_028.py ---
+# Module 028
+def function_028(x):
+    """Function number 028."""
+    return x * 028
+
+result_028 = function_028(42)
+
+
+--- File Index 59: module_083.py ---
+# Module 083
+def function_083(x):
+    """Function number 083."""
+    return x * 083
+
+result_083 = function_083(42)
+
+
+--- File Index 60: module_016.py ---
+# Module 016
+def function_016(x):
+    """Function number 016."""
+    return x * 016
+
+result_016 = function_016(42)
+
+
+--- File Index 61: module_035.py ---
+# Module 035
+def function_035(x):
+    """Function number 035."""
+    return x * 035
+
+result_035 = function_035(42)
+
+
+--- File Index 62: module_005.py ---
+# Module 005
+def function_005(x):
+    """Function number 005."""
+    return x * 005
+
+result_005 = function_005(42)
+
+
+--- File Index 63: module_026.py ---
+# Module 026
+def function_026(x):
+    """Function number 026."""
+    return x * 026
+
+result_026 = function_026(42)
+
+
+--- File Index 64: module_074.py ---
+# Module 074
+def function_074(x):
+    """Function number 074."""
+    return x * 074
+
+result_074 = function_074(42)
+
+
+--- File Index 65: module_009.py ---
+# Module 009
+def function_009(x):
+    """Function number 009."""
+    return x * 009
+
+result_009 = function_009(42)
+
+
+--- File Index 66: module_036.py ---
+# Module 036
+def function_036(x):
+    """Function number 036."""
+    return x * 036
+
+result_036 = function_036(42)
+
+
+--- File Index 67: module_068.py ---
+# Module 068
+def function_068(x):
+    """Function number 068."""
+    return x * 068
+
+result_068 = function_068(42)
+
+
+--- File Index 68: module_065.py ---
+# Module 065
+def function_065(x):
+    """Function number 065."""
+    return x * 065
+
+result_065 = function_065(42)
+
+
+--- File Index 69: module_015.py ---
+# Module 015
+def function_015(x):
+    """Function number 015."""
+    return x * 015
+
+result_015 = function_015(42)
+
+
+--- File Index 70: module_092.py ---
+# Module 092
+def function_092(x):
+    """Function number 092."""
+    return x * 092
+
+result_092 = function_092(42)
+
+
+--- File Index 71: module_050.py ---
+# Module 050
+def function_050(x):
+    """Function number 050."""
+    return x * 050
+
+result_050 = function_050(42)
+
+
+--- File Index 72: module_022.py ---
+# Module 022
+def function_022(x):
+    """Function number 022."""
+    return x * 022
+
+result_022 = function_022(42)
+
+
+--- File Index 73: module_034.py ---
+# Module 034
+def function_034(x):
+    """Function number 034."""
+    return x * 034
+
+result_034 = function_034(42)
+
+
+--- File Index 74: module_082.py ---
+# Module 082
+def function_082(x):
+    """Function number 082."""
+    return x * 082
+
+result_082 = function_082(42)
+
+
+--- File Index 75: module_087.py ---
+# Module 087
+def function_087(x):
+    """Function number 087."""
+    return x * 087
+
+result_087 = function_087(42)
+
+
+--- File Index 76: module_048.py ---
+# Module 048
+def function_048(x):
+    """Function number 048."""
+    return x * 048
+
+result_048 = function_048(42)
+
+
+--- File Index 77: module_053.py ---
+# Module 053
+def function_053(x):
+    """Function number 053."""
+    return x * 053
+
+result_053 = function_053(42)
+
+
+--- File Index 78: module_023.py ---
+# Module 023
+def function_023(x):
+    """Function number 023."""
+    return x * 023
+
+result_023 = function_023(42)
+
+
+--- File Index 79: module_055.py ---
+# Module 055
+def function_055(x):
+    """Function number 055."""
+    return x * 055
+
+result_055 = function_055(42)
+
+
+--- File Index 80: module_017.py ---
+# Module 017
+def function_017(x):
+    """Function number 017."""
+    return x * 017
+
+result_017 = function_017(42)
+
+
+--- File Index 81: module_091.py ---
+# Module 091
+def function_091(x):
+    """Function number 091."""
+    return x * 091
+
+result_091 = function_091(42)
+
+
+--- File Index 82: module_075.py ---
+# Module 075
+def function_075(x):
+    """Function number 075."""
+    return x * 075
+
+result_075 = function_075(42)
+
+
+--- File Index 83: module_010.py ---
+# Module 010
+def function_010(x):
+    """Function number 010."""
+    return x * 010
+
+result_010 = function_010(42)
+
+
+--- File Index 84: module_029.py ---
+# Module 029
+def function_029(x):
+    """Function number 029."""
+    return x * 029
+
+result_029 = function_029(42)
+
+
+--- File Index 85: module_019.py ---
+# Module 019
+def function_019(x):
+    """Function number 019."""
+    return x * 019
+
+result_019 = function_019(42)
+
+
+--- File Index 86: module_049.py ---
+# Module 049
+def function_049(x):
+    """Function number 049."""
+    return x * 049
+
+result_049 = function_049(42)
+
+
+--- File Index 87: module_052.py ---
+# Module 052
+def function_052(x):
+    """Function number 052."""
+    return x * 052
+
+result_052 = function_052(42)
+
+
+--- File Index 88: module_057.py ---
+# Module 057
+def function_057(x):
+    """Function number 057."""
+    return x * 057
+
+result_057 = function_057(42)
+
+
+--- File Index 89: module_013.py ---
+# Module 013
+def function_013(x):
+    """Function number 013."""
+    return x * 013
+
+result_013 = function_013(42)
+
+
+--- File Index 90: module_031.py ---
+# Module 031
+def function_031(x):
+    """Function number 031."""
+    return x * 031
+
+result_031 = function_031(42)
+
+
+--- File Index 91: module_014.py ---
+# Module 014
+def function_014(x):
+    """Function number 014."""
+    return x * 014
+
+result_014 = function_014(42)
+
+
+--- File Index 92: module_006.py ---
+# Module 006
+def function_006(x):
+    """Function number 006."""
+    return x * 006
+
+result_006 = function_006(42)
+
+
+--- File Index 93: module_067.py ---
+# Module 067
+def function_067(x):
+    """Function number 067."""
+    return x * 067
+
+result_067 = function_067(42)
+
+
+--- File Index 94: module_099.py ---
+# Module 099
+def function_099(x):
+    """Function number 099."""
+    return x * 099
+
+result_099 = function_099(42)
+
+
+--- File Index 95: module_062.py ---
+# Module 062
+def function_062(x):
+    """Function number 062."""
+    return x * 062
+
+result_062 = function_062(42)
+
+
+--- File Index 96: module_040.py ---
+# Module 040
+def function_040(x):
+    """Function number 040."""
+    return x * 040
+
+result_040 = function_040(42)
+
+
+--- File Index 97: module_070.py ---
+# Module 070
+def function_070(x):
+    """Function number 070."""
+    return x * 070
+
+result_070 = function_070(42)
+
+
+--- File Index 98: module_011.py ---
+# Module 011
+def function_011(x):
+    """Function number 011."""
+    return x * 011
+
+result_011 = function_011(42)
+
+
+--- File Index 99: module_059.py ---
+# Module 059
+def function_059(x):
+    """Function number 059."""
+    return x * 059
+
+result_059 = function_059(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # module_043.py
+- 1 # module_079.py
+- 2 # module_072.py
+- 3 # module_097.py
+- 4 # module_063.py
+- 5 # module_033.py
+- 6 # module_061.py
+- 7 # module_100.py
+- 8 # module_024.py
+- 9 # module_095.py
+- 10 # module_051.py
+- 11 # module_018.py
+- 12 # module_046.py
+- 13 # module_047.py
+- 14 # module_085.py
+- 15 # module_045.py
+- 16 # module_027.py
+- 17 # module_058.py
+- 18 # module_037.py
+- 19 # module_007.py
+- 20 # module_038.py
+- 21 # module_078.py
+- 22 # module_088.py
+- 23 # module_004.py
+- 24 # module_090.py
+- 25 # module_080.py
+- 26 # module_081.py
+- 27 # module_060.py
+- 28 # module_094.py
+- 29 # module_041.py
+- 30 # module_021.py
+- 31 # module_039.py
+- 32 # module_093.py
+- 33 # module_056.py
+- 34 # module_096.py
+- 35 # module_069.py
+- 36 # module_001.py
+- 37 # module_066.py
+- 38 # module_086.py
+- 39 # module_054.py
+- 40 # module_008.py
+- 41 # module_032.py
+- 42 # module_098.py
+- 43 # module_076.py
+- 44 # module_020.py
+- 45 # module_073.py
+- 46 # module_030.py
+- 47 # module_071.py
+- 48 # module_025.py
+- 49 # module_042.py
+- 50 # module_089.py
+- 51 # module_003.py
+- 52 # module_002.py
+- 53 # module_084.py
+- 54 # module_012.py
+- 55 # module_064.py
+- 56 # module_044.py
+- 57 # module_077.py
+- 58 # module_028.py
+- 59 # module_083.py
+- 60 # module_016.py
+- 61 # module_035.py
+- 62 # module_005.py
+- 63 # module_026.py
+- 64 # module_074.py
+- 65 # module_009.py
+- 66 # module_036.py
+- 67 # module_068.py
+- 68 # module_065.py
+- 69 # module_015.py
+- 70 # module_092.py
+- 71 # module_050.py
+- 72 # module_022.py
+- 73 # module_034.py
+- 74 # module_082.py
+- 75 # module_087.py
+- 76 # module_048.py
+- 77 # module_053.py
+- 78 # module_023.py
+- 79 # module_055.py
+- 80 # module_017.py
+- 81 # module_091.py
+- 82 # module_075.py
+- 83 # module_010.py
+- 84 # module_029.py
+- 85 # module_019.py
+- 86 # module_049.py
+- 87 # module_052.py
+- 88 # module_057.py
+- 89 # module_013.py
+- 90 # module_031.py
+- 91 # module_014.py
+- 92 # module_006.py
+- 93 # module_067.py
+- 94 # module_099.py
+- 95 # module_062.py
+- 96 # module_040.py
+- 97 # module_070.py
+- 98 # module_011.py
+- 99 # module_059.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:25:30,161 - INFO - PROMPT: 
+For the project `large-project`:
+
+Codebase Context:
+--- File Index 0: module_043.py ---
+# Module 043
+def function_043(x):
+    """Function number 043."""
+    return x * 043
+
+result_043 = function_043(42)
+
+
+--- File Index 1: module_079.py ---
+# Module 079
+def function_079(x):
+    """Function number 079."""
+    return x * 079
+
+result_079 = function_079(42)
+
+
+--- File Index 2: module_072.py ---
+# Module 072
+def function_072(x):
+    """Function number 072."""
+    return x * 072
+
+result_072 = function_072(42)
+
+
+--- File Index 3: module_097.py ---
+# Module 097
+def function_097(x):
+    """Function number 097."""
+    return x * 097
+
+result_097 = function_097(42)
+
+
+--- File Index 4: module_063.py ---
+# Module 063
+def function_063(x):
+    """Function number 063."""
+    return x * 063
+
+result_063 = function_063(42)
+
+
+--- File Index 5: module_033.py ---
+# Module 033
+def function_033(x):
+    """Function number 033."""
+    return x * 033
+
+result_033 = function_033(42)
+
+
+--- File Index 6: module_061.py ---
+# Module 061
+def function_061(x):
+    """Function number 061."""
+    return x * 061
+
+result_061 = function_061(42)
+
+
+--- File Index 7: module_100.py ---
+# Module 100
+def function_100(x):
+    """Function number 100."""
+    return x * 100
+
+result_100 = function_100(42)
+
+
+--- File Index 8: module_024.py ---
+# Module 024
+def function_024(x):
+    """Function number 024."""
+    return x * 024
+
+result_024 = function_024(42)
+
+
+--- File Index 9: module_095.py ---
+# Module 095
+def function_095(x):
+    """Function number 095."""
+    return x * 095
+
+result_095 = function_095(42)
+
+
+--- File Index 10: module_051.py ---
+# Module 051
+def function_051(x):
+    """Function number 051."""
+    return x * 051
+
+result_051 = function_051(42)
+
+
+--- File Index 11: module_018.py ---
+# Module 018
+def function_018(x):
+    """Function number 018."""
+    return x * 018
+
+result_018 = function_018(42)
+
+
+--- File Index 12: module_046.py ---
+# Module 046
+def function_046(x):
+    """Function number 046."""
+    return x * 046
+
+result_046 = function_046(42)
+
+
+--- File Index 13: module_047.py ---
+# Module 047
+def function_047(x):
+    """Function number 047."""
+    return x * 047
+
+result_047 = function_047(42)
+
+
+--- File Index 14: module_085.py ---
+# Module 085
+def function_085(x):
+    """Function number 085."""
+    return x * 085
+
+result_085 = function_085(42)
+
+
+--- File Index 15: module_045.py ---
+# Module 045
+def function_045(x):
+    """Function number 045."""
+    return x * 045
+
+result_045 = function_045(42)
+
+
+--- File Index 16: module_027.py ---
+# Module 027
+def function_027(x):
+    """Function number 027."""
+    return x * 027
+
+result_027 = function_027(42)
+
+
+--- File Index 17: module_058.py ---
+# Module 058
+def function_058(x):
+    """Function number 058."""
+    return x * 058
+
+result_058 = function_058(42)
+
+
+--- File Index 18: module_037.py ---
+# Module 037
+def function_037(x):
+    """Function number 037."""
+    return x * 037
+
+result_037 = function_037(42)
+
+
+--- File Index 19: module_007.py ---
+# Module 007
+def function_007(x):
+    """Function number 007."""
+    return x * 007
+
+result_007 = function_007(42)
+
+
+--- File Index 20: module_038.py ---
+# Module 038
+def function_038(x):
+    """Function number 038."""
+    return x * 038
+
+result_038 = function_038(42)
+
+
+--- File Index 21: module_078.py ---
+# Module 078
+def function_078(x):
+    """Function number 078."""
+    return x * 078
+
+result_078 = function_078(42)
+
+
+--- File Index 22: module_088.py ---
+# Module 088
+def function_088(x):
+    """Function number 088."""
+    return x * 088
+
+result_088 = function_088(42)
+
+
+--- File Index 23: module_004.py ---
+# Module 004
+def function_004(x):
+    """Function number 004."""
+    return x * 004
+
+result_004 = function_004(42)
+
+
+--- File Index 24: module_090.py ---
+# Module 090
+def function_090(x):
+    """Function number 090."""
+    return x * 090
+
+result_090 = function_090(42)
+
+
+--- File Index 25: module_080.py ---
+# Module 080
+def function_080(x):
+    """Function number 080."""
+    return x * 080
+
+result_080 = function_080(42)
+
+
+--- File Index 26: module_081.py ---
+# Module 081
+def function_081(x):
+    """Function number 081."""
+    return x * 081
+
+result_081 = function_081(42)
+
+
+--- File Index 27: module_060.py ---
+# Module 060
+def function_060(x):
+    """Function number 060."""
+    return x * 060
+
+result_060 = function_060(42)
+
+
+--- File Index 28: module_094.py ---
+# Module 094
+def function_094(x):
+    """Function number 094."""
+    return x * 094
+
+result_094 = function_094(42)
+
+
+--- File Index 29: module_041.py ---
+# Module 041
+def function_041(x):
+    """Function number 041."""
+    return x * 041
+
+result_041 = function_041(42)
+
+
+--- File Index 30: module_021.py ---
+# Module 021
+def function_021(x):
+    """Function number 021."""
+    return x * 021
+
+result_021 = function_021(42)
+
+
+--- File Index 31: module_039.py ---
+# Module 039
+def function_039(x):
+    """Function number 039."""
+    return x * 039
+
+result_039 = function_039(42)
+
+
+--- File Index 32: module_093.py ---
+# Module 093
+def function_093(x):
+    """Function number 093."""
+    return x * 093
+
+result_093 = function_093(42)
+
+
+--- File Index 33: module_056.py ---
+# Module 056
+def function_056(x):
+    """Function number 056."""
+    return x * 056
+
+result_056 = function_056(42)
+
+
+--- File Index 34: module_096.py ---
+# Module 096
+def function_096(x):
+    """Function number 096."""
+    return x * 096
+
+result_096 = function_096(42)
+
+
+--- File Index 35: module_069.py ---
+# Module 069
+def function_069(x):
+    """Function number 069."""
+    return x * 069
+
+result_069 = function_069(42)
+
+
+--- File Index 36: module_001.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+--- File Index 37: module_066.py ---
+# Module 066
+def function_066(x):
+    """Function number 066."""
+    return x * 066
+
+result_066 = function_066(42)
+
+
+--- File Index 38: module_086.py ---
+# Module 086
+def function_086(x):
+    """Function number 086."""
+    return x * 086
+
+result_086 = function_086(42)
+
+
+--- File Index 39: module_054.py ---
+# Module 054
+def function_054(x):
+    """Function number 054."""
+    return x * 054
+
+result_054 = function_054(42)
+
+
+--- File Index 40: module_008.py ---
+# Module 008
+def function_008(x):
+    """Function number 008."""
+    return x * 008
+
+result_008 = function_008(42)
+
+
+--- File Index 41: module_032.py ---
+# Module 032
+def function_032(x):
+    """Function number 032."""
+    return x * 032
+
+result_032 = function_032(42)
+
+
+--- File Index 42: module_098.py ---
+# Module 098
+def function_098(x):
+    """Function number 098."""
+    return x * 098
+
+result_098 = function_098(42)
+
+
+--- File Index 43: module_076.py ---
+# Module 076
+def function_076(x):
+    """Function number 076."""
+    return x * 076
+
+result_076 = function_076(42)
+
+
+--- File Index 44: module_020.py ---
+# Module 020
+def function_020(x):
+    """Function number 020."""
+    return x * 020
+
+result_020 = function_020(42)
+
+
+--- File Index 45: module_073.py ---
+# Module 073
+def function_073(x):
+    """Function number 073."""
+    return x * 073
+
+result_073 = function_073(42)
+
+
+--- File Index 46: module_030.py ---
+# Module 030
+def function_030(x):
+    """Function number 030."""
+    return x * 030
+
+result_030 = function_030(42)
+
+
+--- File Index 47: module_071.py ---
+# Module 071
+def function_071(x):
+    """Function number 071."""
+    return x * 071
+
+result_071 = function_071(42)
+
+
+--- File Index 48: module_025.py ---
+# Module 025
+def function_025(x):
+    """Function number 025."""
+    return x * 025
+
+result_025 = function_025(42)
+
+
+--- File Index 49: module_042.py ---
+# Module 042
+def function_042(x):
+    """Function number 042."""
+    return x * 042
+
+result_042 = function_042(42)
+
+
+--- File Index 50: module_089.py ---
+# Module 089
+def function_089(x):
+    """Function number 089."""
+    return x * 089
+
+result_089 = function_089(42)
+
+
+--- File Index 51: module_003.py ---
+# Module 003
+def function_003(x):
+    """Function number 003."""
+    return x * 003
+
+result_003 = function_003(42)
+
+
+--- File Index 52: module_002.py ---
+# Module 002
+def function_002(x):
+    """Function number 002."""
+    return x * 002
+
+result_002 = function_002(42)
+
+
+--- File Index 53: module_084.py ---
+# Module 084
+def function_084(x):
+    """Function number 084."""
+    return x * 084
+
+result_084 = function_084(42)
+
+
+--- File Index 54: module_012.py ---
+# Module 012
+def function_012(x):
+    """Function number 012."""
+    return x * 012
+
+result_012 = function_012(42)
+
+
+--- File Index 55: module_064.py ---
+# Module 064
+def function_064(x):
+    """Function number 064."""
+    return x * 064
+
+result_064 = function_064(42)
+
+
+--- File Index 56: module_044.py ---
+# Module 044
+def function_044(x):
+    """Function number 044."""
+    return x * 044
+
+result_044 = function_044(42)
+
+
+--- File Index 57: module_077.py ---
+# Module 077
+def function_077(x):
+    """Function number 077."""
+    return x * 077
+
+result_077 = function_077(42)
+
+
+--- File Index 58: module_028.py ---
+# Module 028
+def function_028(x):
+    """Function number 028."""
+    return x * 028
+
+result_028 = function_028(42)
+
+
+--- File Index 59: module_083.py ---
+# Module 083
+def function_083(x):
+    """Function number 083."""
+    return x * 083
+
+result_083 = function_083(42)
+
+
+--- File Index 60: module_016.py ---
+# Module 016
+def function_016(x):
+    """Function number 016."""
+    return x * 016
+
+result_016 = function_016(42)
+
+
+--- File Index 61: module_035.py ---
+# Module 035
+def function_035(x):
+    """Function number 035."""
+    return x * 035
+
+result_035 = function_035(42)
+
+
+--- File Index 62: module_005.py ---
+# Module 005
+def function_005(x):
+    """Function number 005."""
+    return x * 005
+
+result_005 = function_005(42)
+
+
+--- File Index 63: module_026.py ---
+# Module 026
+def function_026(x):
+    """Function number 026."""
+    return x * 026
+
+result_026 = function_026(42)
+
+
+--- File Index 64: module_074.py ---
+# Module 074
+def function_074(x):
+    """Function number 074."""
+    return x * 074
+
+result_074 = function_074(42)
+
+
+--- File Index 65: module_009.py ---
+# Module 009
+def function_009(x):
+    """Function number 009."""
+    return x * 009
+
+result_009 = function_009(42)
+
+
+--- File Index 66: module_036.py ---
+# Module 036
+def function_036(x):
+    """Function number 036."""
+    return x * 036
+
+result_036 = function_036(42)
+
+
+--- File Index 67: module_068.py ---
+# Module 068
+def function_068(x):
+    """Function number 068."""
+    return x * 068
+
+result_068 = function_068(42)
+
+
+--- File Index 68: module_065.py ---
+# Module 065
+def function_065(x):
+    """Function number 065."""
+    return x * 065
+
+result_065 = function_065(42)
+
+
+--- File Index 69: module_015.py ---
+# Module 015
+def function_015(x):
+    """Function number 015."""
+    return x * 015
+
+result_015 = function_015(42)
+
+
+--- File Index 70: module_092.py ---
+# Module 092
+def function_092(x):
+    """Function number 092."""
+    return x * 092
+
+result_092 = function_092(42)
+
+
+--- File Index 71: module_050.py ---
+# Module 050
+def function_050(x):
+    """Function number 050."""
+    return x * 050
+
+result_050 = function_050(42)
+
+
+--- File Index 72: module_022.py ---
+# Module 022
+def function_022(x):
+    """Function number 022."""
+    return x * 022
+
+result_022 = function_022(42)
+
+
+--- File Index 73: module_034.py ---
+# Module 034
+def function_034(x):
+    """Function number 034."""
+    return x * 034
+
+result_034 = function_034(42)
+
+
+--- File Index 74: module_082.py ---
+# Module 082
+def function_082(x):
+    """Function number 082."""
+    return x * 082
+
+result_082 = function_082(42)
+
+
+--- File Index 75: module_087.py ---
+# Module 087
+def function_087(x):
+    """Function number 087."""
+    return x * 087
+
+result_087 = function_087(42)
+
+
+--- File Index 76: module_048.py ---
+# Module 048
+def function_048(x):
+    """Function number 048."""
+    return x * 048
+
+result_048 = function_048(42)
+
+
+--- File Index 77: module_053.py ---
+# Module 053
+def function_053(x):
+    """Function number 053."""
+    return x * 053
+
+result_053 = function_053(42)
+
+
+--- File Index 78: module_023.py ---
+# Module 023
+def function_023(x):
+    """Function number 023."""
+    return x * 023
+
+result_023 = function_023(42)
+
+
+--- File Index 79: module_055.py ---
+# Module 055
+def function_055(x):
+    """Function number 055."""
+    return x * 055
+
+result_055 = function_055(42)
+
+
+--- File Index 80: module_017.py ---
+# Module 017
+def function_017(x):
+    """Function number 017."""
+    return x * 017
+
+result_017 = function_017(42)
+
+
+--- File Index 81: module_091.py ---
+# Module 091
+def function_091(x):
+    """Function number 091."""
+    return x * 091
+
+result_091 = function_091(42)
+
+
+--- File Index 82: module_075.py ---
+# Module 075
+def function_075(x):
+    """Function number 075."""
+    return x * 075
+
+result_075 = function_075(42)
+
+
+--- File Index 83: module_010.py ---
+# Module 010
+def function_010(x):
+    """Function number 010."""
+    return x * 010
+
+result_010 = function_010(42)
+
+
+--- File Index 84: module_029.py ---
+# Module 029
+def function_029(x):
+    """Function number 029."""
+    return x * 029
+
+result_029 = function_029(42)
+
+
+--- File Index 85: module_019.py ---
+# Module 019
+def function_019(x):
+    """Function number 019."""
+    return x * 019
+
+result_019 = function_019(42)
+
+
+--- File Index 86: module_049.py ---
+# Module 049
+def function_049(x):
+    """Function number 049."""
+    return x * 049
+
+result_049 = function_049(42)
+
+
+--- File Index 87: module_052.py ---
+# Module 052
+def function_052(x):
+    """Function number 052."""
+    return x * 052
+
+result_052 = function_052(42)
+
+
+--- File Index 88: module_057.py ---
+# Module 057
+def function_057(x):
+    """Function number 057."""
+    return x * 057
+
+result_057 = function_057(42)
+
+
+--- File Index 89: module_013.py ---
+# Module 013
+def function_013(x):
+    """Function number 013."""
+    return x * 013
+
+result_013 = function_013(42)
+
+
+--- File Index 90: module_031.py ---
+# Module 031
+def function_031(x):
+    """Function number 031."""
+    return x * 031
+
+result_031 = function_031(42)
+
+
+--- File Index 91: module_014.py ---
+# Module 014
+def function_014(x):
+    """Function number 014."""
+    return x * 014
+
+result_014 = function_014(42)
+
+
+--- File Index 92: module_006.py ---
+# Module 006
+def function_006(x):
+    """Function number 006."""
+    return x * 006
+
+result_006 = function_006(42)
+
+
+--- File Index 93: module_067.py ---
+# Module 067
+def function_067(x):
+    """Function number 067."""
+    return x * 067
+
+result_067 = function_067(42)
+
+
+--- File Index 94: module_099.py ---
+# Module 099
+def function_099(x):
+    """Function number 099."""
+    return x * 099
+
+result_099 = function_099(42)
+
+
+--- File Index 95: module_062.py ---
+# Module 062
+def function_062(x):
+    """Function number 062."""
+    return x * 062
+
+result_062 = function_062(42)
+
+
+--- File Index 96: module_040.py ---
+# Module 040
+def function_040(x):
+    """Function number 040."""
+    return x * 040
+
+result_040 = function_040(42)
+
+
+--- File Index 97: module_070.py ---
+# Module 070
+def function_070(x):
+    """Function number 070."""
+    return x * 070
+
+result_070 = function_070(42)
+
+
+--- File Index 98: module_011.py ---
+# Module 011
+def function_011(x):
+    """Function number 011."""
+    return x * 011
+
+result_011 = function_011(42)
+
+
+--- File Index 99: module_059.py ---
+# Module 059
+def function_059(x):
+    """Function number 059."""
+    return x * 059
+
+result_059 = function_059(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # module_043.py
+- 1 # module_079.py
+- 2 # module_072.py
+- 3 # module_097.py
+- 4 # module_063.py
+- 5 # module_033.py
+- 6 # module_061.py
+- 7 # module_100.py
+- 8 # module_024.py
+- 9 # module_095.py
+- 10 # module_051.py
+- 11 # module_018.py
+- 12 # module_046.py
+- 13 # module_047.py
+- 14 # module_085.py
+- 15 # module_045.py
+- 16 # module_027.py
+- 17 # module_058.py
+- 18 # module_037.py
+- 19 # module_007.py
+- 20 # module_038.py
+- 21 # module_078.py
+- 22 # module_088.py
+- 23 # module_004.py
+- 24 # module_090.py
+- 25 # module_080.py
+- 26 # module_081.py
+- 27 # module_060.py
+- 28 # module_094.py
+- 29 # module_041.py
+- 30 # module_021.py
+- 31 # module_039.py
+- 32 # module_093.py
+- 33 # module_056.py
+- 34 # module_096.py
+- 35 # module_069.py
+- 36 # module_001.py
+- 37 # module_066.py
+- 38 # module_086.py
+- 39 # module_054.py
+- 40 # module_008.py
+- 41 # module_032.py
+- 42 # module_098.py
+- 43 # module_076.py
+- 44 # module_020.py
+- 45 # module_073.py
+- 46 # module_030.py
+- 47 # module_071.py
+- 48 # module_025.py
+- 49 # module_042.py
+- 50 # module_089.py
+- 51 # module_003.py
+- 52 # module_002.py
+- 53 # module_084.py
+- 54 # module_012.py
+- 55 # module_064.py
+- 56 # module_044.py
+- 57 # module_077.py
+- 58 # module_028.py
+- 59 # module_083.py
+- 60 # module_016.py
+- 61 # module_035.py
+- 62 # module_005.py
+- 63 # module_026.py
+- 64 # module_074.py
+- 65 # module_009.py
+- 66 # module_036.py
+- 67 # module_068.py
+- 68 # module_065.py
+- 69 # module_015.py
+- 70 # module_092.py
+- 71 # module_050.py
+- 72 # module_022.py
+- 73 # module_034.py
+- 74 # module_082.py
+- 75 # module_087.py
+- 76 # module_048.py
+- 77 # module_053.py
+- 78 # module_023.py
+- 79 # module_055.py
+- 80 # module_017.py
+- 81 # module_091.py
+- 82 # module_075.py
+- 83 # module_010.py
+- 84 # module_029.py
+- 85 # module_019.py
+- 86 # module_049.py
+- 87 # module_052.py
+- 88 # module_057.py
+- 89 # module_013.py
+- 90 # module_031.py
+- 91 # module_014.py
+- 92 # module_006.py
+- 93 # module_067.py
+- 94 # module_099.py
+- 95 # module_062.py
+- 96 # module_040.py
+- 97 # module_070.py
+- 98 # module_011.py
+- 99 # module_059.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:26:05,451 - INFO - PROMPT: 
+For the project `large-project`:
+
+Codebase Context:
+--- File Index 0: module_043.py ---
+# Module 043
+def function_043(x):
+    """Function number 043."""
+    return x * 043
+
+result_043 = function_043(42)
+
+
+--- File Index 1: module_079.py ---
+# Module 079
+def function_079(x):
+    """Function number 079."""
+    return x * 079
+
+result_079 = function_079(42)
+
+
+--- File Index 2: module_072.py ---
+# Module 072
+def function_072(x):
+    """Function number 072."""
+    return x * 072
+
+result_072 = function_072(42)
+
+
+--- File Index 3: module_097.py ---
+# Module 097
+def function_097(x):
+    """Function number 097."""
+    return x * 097
+
+result_097 = function_097(42)
+
+
+--- File Index 4: module_063.py ---
+# Module 063
+def function_063(x):
+    """Function number 063."""
+    return x * 063
+
+result_063 = function_063(42)
+
+
+--- File Index 5: module_033.py ---
+# Module 033
+def function_033(x):
+    """Function number 033."""
+    return x * 033
+
+result_033 = function_033(42)
+
+
+--- File Index 6: module_061.py ---
+# Module 061
+def function_061(x):
+    """Function number 061."""
+    return x * 061
+
+result_061 = function_061(42)
+
+
+--- File Index 7: module_100.py ---
+# Module 100
+def function_100(x):
+    """Function number 100."""
+    return x * 100
+
+result_100 = function_100(42)
+
+
+--- File Index 8: module_024.py ---
+# Module 024
+def function_024(x):
+    """Function number 024."""
+    return x * 024
+
+result_024 = function_024(42)
+
+
+--- File Index 9: module_095.py ---
+# Module 095
+def function_095(x):
+    """Function number 095."""
+    return x * 095
+
+result_095 = function_095(42)
+
+
+--- File Index 10: module_051.py ---
+# Module 051
+def function_051(x):
+    """Function number 051."""
+    return x * 051
+
+result_051 = function_051(42)
+
+
+--- File Index 11: module_018.py ---
+# Module 018
+def function_018(x):
+    """Function number 018."""
+    return x * 018
+
+result_018 = function_018(42)
+
+
+--- File Index 12: module_046.py ---
+# Module 046
+def function_046(x):
+    """Function number 046."""
+    return x * 046
+
+result_046 = function_046(42)
+
+
+--- File Index 13: module_047.py ---
+# Module 047
+def function_047(x):
+    """Function number 047."""
+    return x * 047
+
+result_047 = function_047(42)
+
+
+--- File Index 14: module_085.py ---
+# Module 085
+def function_085(x):
+    """Function number 085."""
+    return x * 085
+
+result_085 = function_085(42)
+
+
+--- File Index 15: module_045.py ---
+# Module 045
+def function_045(x):
+    """Function number 045."""
+    return x * 045
+
+result_045 = function_045(42)
+
+
+--- File Index 16: module_027.py ---
+# Module 027
+def function_027(x):
+    """Function number 027."""
+    return x * 027
+
+result_027 = function_027(42)
+
+
+--- File Index 17: module_058.py ---
+# Module 058
+def function_058(x):
+    """Function number 058."""
+    return x * 058
+
+result_058 = function_058(42)
+
+
+--- File Index 18: module_037.py ---
+# Module 037
+def function_037(x):
+    """Function number 037."""
+    return x * 037
+
+result_037 = function_037(42)
+
+
+--- File Index 19: module_007.py ---
+# Module 007
+def function_007(x):
+    """Function number 007."""
+    return x * 007
+
+result_007 = function_007(42)
+
+
+--- File Index 20: module_038.py ---
+# Module 038
+def function_038(x):
+    """Function number 038."""
+    return x * 038
+
+result_038 = function_038(42)
+
+
+--- File Index 21: module_078.py ---
+# Module 078
+def function_078(x):
+    """Function number 078."""
+    return x * 078
+
+result_078 = function_078(42)
+
+
+--- File Index 22: module_088.py ---
+# Module 088
+def function_088(x):
+    """Function number 088."""
+    return x * 088
+
+result_088 = function_088(42)
+
+
+--- File Index 23: module_004.py ---
+# Module 004
+def function_004(x):
+    """Function number 004."""
+    return x * 004
+
+result_004 = function_004(42)
+
+
+--- File Index 24: module_090.py ---
+# Module 090
+def function_090(x):
+    """Function number 090."""
+    return x * 090
+
+result_090 = function_090(42)
+
+
+--- File Index 25: module_080.py ---
+# Module 080
+def function_080(x):
+    """Function number 080."""
+    return x * 080
+
+result_080 = function_080(42)
+
+
+--- File Index 26: module_081.py ---
+# Module 081
+def function_081(x):
+    """Function number 081."""
+    return x * 081
+
+result_081 = function_081(42)
+
+
+--- File Index 27: module_060.py ---
+# Module 060
+def function_060(x):
+    """Function number 060."""
+    return x * 060
+
+result_060 = function_060(42)
+
+
+--- File Index 28: module_094.py ---
+# Module 094
+def function_094(x):
+    """Function number 094."""
+    return x * 094
+
+result_094 = function_094(42)
+
+
+--- File Index 29: module_041.py ---
+# Module 041
+def function_041(x):
+    """Function number 041."""
+    return x * 041
+
+result_041 = function_041(42)
+
+
+--- File Index 30: module_021.py ---
+# Module 021
+def function_021(x):
+    """Function number 021."""
+    return x * 021
+
+result_021 = function_021(42)
+
+
+--- File Index 31: module_039.py ---
+# Module 039
+def function_039(x):
+    """Function number 039."""
+    return x * 039
+
+result_039 = function_039(42)
+
+
+--- File Index 32: module_093.py ---
+# Module 093
+def function_093(x):
+    """Function number 093."""
+    return x * 093
+
+result_093 = function_093(42)
+
+
+--- File Index 33: module_056.py ---
+# Module 056
+def function_056(x):
+    """Function number 056."""
+    return x * 056
+
+result_056 = function_056(42)
+
+
+--- File Index 34: module_096.py ---
+# Module 096
+def function_096(x):
+    """Function number 096."""
+    return x * 096
+
+result_096 = function_096(42)
+
+
+--- File Index 35: module_069.py ---
+# Module 069
+def function_069(x):
+    """Function number 069."""
+    return x * 069
+
+result_069 = function_069(42)
+
+
+--- File Index 36: module_001.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+--- File Index 37: module_066.py ---
+# Module 066
+def function_066(x):
+    """Function number 066."""
+    return x * 066
+
+result_066 = function_066(42)
+
+
+--- File Index 38: module_086.py ---
+# Module 086
+def function_086(x):
+    """Function number 086."""
+    return x * 086
+
+result_086 = function_086(42)
+
+
+--- File Index 39: module_054.py ---
+# Module 054
+def function_054(x):
+    """Function number 054."""
+    return x * 054
+
+result_054 = function_054(42)
+
+
+--- File Index 40: module_008.py ---
+# Module 008
+def function_008(x):
+    """Function number 008."""
+    return x * 008
+
+result_008 = function_008(42)
+
+
+--- File Index 41: module_032.py ---
+# Module 032
+def function_032(x):
+    """Function number 032."""
+    return x * 032
+
+result_032 = function_032(42)
+
+
+--- File Index 42: module_098.py ---
+# Module 098
+def function_098(x):
+    """Function number 098."""
+    return x * 098
+
+result_098 = function_098(42)
+
+
+--- File Index 43: module_076.py ---
+# Module 076
+def function_076(x):
+    """Function number 076."""
+    return x * 076
+
+result_076 = function_076(42)
+
+
+--- File Index 44: module_020.py ---
+# Module 020
+def function_020(x):
+    """Function number 020."""
+    return x * 020
+
+result_020 = function_020(42)
+
+
+--- File Index 45: module_073.py ---
+# Module 073
+def function_073(x):
+    """Function number 073."""
+    return x * 073
+
+result_073 = function_073(42)
+
+
+--- File Index 46: module_030.py ---
+# Module 030
+def function_030(x):
+    """Function number 030."""
+    return x * 030
+
+result_030 = function_030(42)
+
+
+--- File Index 47: module_071.py ---
+# Module 071
+def function_071(x):
+    """Function number 071."""
+    return x * 071
+
+result_071 = function_071(42)
+
+
+--- File Index 48: module_025.py ---
+# Module 025
+def function_025(x):
+    """Function number 025."""
+    return x * 025
+
+result_025 = function_025(42)
+
+
+--- File Index 49: module_042.py ---
+# Module 042
+def function_042(x):
+    """Function number 042."""
+    return x * 042
+
+result_042 = function_042(42)
+
+
+--- File Index 50: module_089.py ---
+# Module 089
+def function_089(x):
+    """Function number 089."""
+    return x * 089
+
+result_089 = function_089(42)
+
+
+--- File Index 51: module_003.py ---
+# Module 003
+def function_003(x):
+    """Function number 003."""
+    return x * 003
+
+result_003 = function_003(42)
+
+
+--- File Index 52: module_002.py ---
+# Module 002
+def function_002(x):
+    """Function number 002."""
+    return x * 002
+
+result_002 = function_002(42)
+
+
+--- File Index 53: module_084.py ---
+# Module 084
+def function_084(x):
+    """Function number 084."""
+    return x * 084
+
+result_084 = function_084(42)
+
+
+--- File Index 54: module_012.py ---
+# Module 012
+def function_012(x):
+    """Function number 012."""
+    return x * 012
+
+result_012 = function_012(42)
+
+
+--- File Index 55: module_064.py ---
+# Module 064
+def function_064(x):
+    """Function number 064."""
+    return x * 064
+
+result_064 = function_064(42)
+
+
+--- File Index 56: module_044.py ---
+# Module 044
+def function_044(x):
+    """Function number 044."""
+    return x * 044
+
+result_044 = function_044(42)
+
+
+--- File Index 57: module_077.py ---
+# Module 077
+def function_077(x):
+    """Function number 077."""
+    return x * 077
+
+result_077 = function_077(42)
+
+
+--- File Index 58: module_028.py ---
+# Module 028
+def function_028(x):
+    """Function number 028."""
+    return x * 028
+
+result_028 = function_028(42)
+
+
+--- File Index 59: module_083.py ---
+# Module 083
+def function_083(x):
+    """Function number 083."""
+    return x * 083
+
+result_083 = function_083(42)
+
+
+--- File Index 60: module_016.py ---
+# Module 016
+def function_016(x):
+    """Function number 016."""
+    return x * 016
+
+result_016 = function_016(42)
+
+
+--- File Index 61: module_035.py ---
+# Module 035
+def function_035(x):
+    """Function number 035."""
+    return x * 035
+
+result_035 = function_035(42)
+
+
+--- File Index 62: module_005.py ---
+# Module 005
+def function_005(x):
+    """Function number 005."""
+    return x * 005
+
+result_005 = function_005(42)
+
+
+--- File Index 63: module_026.py ---
+# Module 026
+def function_026(x):
+    """Function number 026."""
+    return x * 026
+
+result_026 = function_026(42)
+
+
+--- File Index 64: module_074.py ---
+# Module 074
+def function_074(x):
+    """Function number 074."""
+    return x * 074
+
+result_074 = function_074(42)
+
+
+--- File Index 65: module_009.py ---
+# Module 009
+def function_009(x):
+    """Function number 009."""
+    return x * 009
+
+result_009 = function_009(42)
+
+
+--- File Index 66: module_036.py ---
+# Module 036
+def function_036(x):
+    """Function number 036."""
+    return x * 036
+
+result_036 = function_036(42)
+
+
+--- File Index 67: module_068.py ---
+# Module 068
+def function_068(x):
+    """Function number 068."""
+    return x * 068
+
+result_068 = function_068(42)
+
+
+--- File Index 68: module_065.py ---
+# Module 065
+def function_065(x):
+    """Function number 065."""
+    return x * 065
+
+result_065 = function_065(42)
+
+
+--- File Index 69: module_015.py ---
+# Module 015
+def function_015(x):
+    """Function number 015."""
+    return x * 015
+
+result_015 = function_015(42)
+
+
+--- File Index 70: module_092.py ---
+# Module 092
+def function_092(x):
+    """Function number 092."""
+    return x * 092
+
+result_092 = function_092(42)
+
+
+--- File Index 71: module_050.py ---
+# Module 050
+def function_050(x):
+    """Function number 050."""
+    return x * 050
+
+result_050 = function_050(42)
+
+
+--- File Index 72: module_022.py ---
+# Module 022
+def function_022(x):
+    """Function number 022."""
+    return x * 022
+
+result_022 = function_022(42)
+
+
+--- File Index 73: module_034.py ---
+# Module 034
+def function_034(x):
+    """Function number 034."""
+    return x * 034
+
+result_034 = function_034(42)
+
+
+--- File Index 74: module_082.py ---
+# Module 082
+def function_082(x):
+    """Function number 082."""
+    return x * 082
+
+result_082 = function_082(42)
+
+
+--- File Index 75: module_087.py ---
+# Module 087
+def function_087(x):
+    """Function number 087."""
+    return x * 087
+
+result_087 = function_087(42)
+
+
+--- File Index 76: module_048.py ---
+# Module 048
+def function_048(x):
+    """Function number 048."""
+    return x * 048
+
+result_048 = function_048(42)
+
+
+--- File Index 77: module_053.py ---
+# Module 053
+def function_053(x):
+    """Function number 053."""
+    return x * 053
+
+result_053 = function_053(42)
+
+
+--- File Index 78: module_023.py ---
+# Module 023
+def function_023(x):
+    """Function number 023."""
+    return x * 023
+
+result_023 = function_023(42)
+
+
+--- File Index 79: module_055.py ---
+# Module 055
+def function_055(x):
+    """Function number 055."""
+    return x * 055
+
+result_055 = function_055(42)
+
+
+--- File Index 80: module_017.py ---
+# Module 017
+def function_017(x):
+    """Function number 017."""
+    return x * 017
+
+result_017 = function_017(42)
+
+
+--- File Index 81: module_091.py ---
+# Module 091
+def function_091(x):
+    """Function number 091."""
+    return x * 091
+
+result_091 = function_091(42)
+
+
+--- File Index 82: module_075.py ---
+# Module 075
+def function_075(x):
+    """Function number 075."""
+    return x * 075
+
+result_075 = function_075(42)
+
+
+--- File Index 83: module_010.py ---
+# Module 010
+def function_010(x):
+    """Function number 010."""
+    return x * 010
+
+result_010 = function_010(42)
+
+
+--- File Index 84: module_029.py ---
+# Module 029
+def function_029(x):
+    """Function number 029."""
+    return x * 029
+
+result_029 = function_029(42)
+
+
+--- File Index 85: module_019.py ---
+# Module 019
+def function_019(x):
+    """Function number 019."""
+    return x * 019
+
+result_019 = function_019(42)
+
+
+--- File Index 86: module_049.py ---
+# Module 049
+def function_049(x):
+    """Function number 049."""
+    return x * 049
+
+result_049 = function_049(42)
+
+
+--- File Index 87: module_052.py ---
+# Module 052
+def function_052(x):
+    """Function number 052."""
+    return x * 052
+
+result_052 = function_052(42)
+
+
+--- File Index 88: module_057.py ---
+# Module 057
+def function_057(x):
+    """Function number 057."""
+    return x * 057
+
+result_057 = function_057(42)
+
+
+--- File Index 89: module_013.py ---
+# Module 013
+def function_013(x):
+    """Function number 013."""
+    return x * 013
+
+result_013 = function_013(42)
+
+
+--- File Index 90: module_031.py ---
+# Module 031
+def function_031(x):
+    """Function number 031."""
+    return x * 031
+
+result_031 = function_031(42)
+
+
+--- File Index 91: module_014.py ---
+# Module 014
+def function_014(x):
+    """Function number 014."""
+    return x * 014
+
+result_014 = function_014(42)
+
+
+--- File Index 92: module_006.py ---
+# Module 006
+def function_006(x):
+    """Function number 006."""
+    return x * 006
+
+result_006 = function_006(42)
+
+
+--- File Index 93: module_067.py ---
+# Module 067
+def function_067(x):
+    """Function number 067."""
+    return x * 067
+
+result_067 = function_067(42)
+
+
+--- File Index 94: module_099.py ---
+# Module 099
+def function_099(x):
+    """Function number 099."""
+    return x * 099
+
+result_099 = function_099(42)
+
+
+--- File Index 95: module_062.py ---
+# Module 062
+def function_062(x):
+    """Function number 062."""
+    return x * 062
+
+result_062 = function_062(42)
+
+
+--- File Index 96: module_040.py ---
+# Module 040
+def function_040(x):
+    """Function number 040."""
+    return x * 040
+
+result_040 = function_040(42)
+
+
+--- File Index 97: module_070.py ---
+# Module 070
+def function_070(x):
+    """Function number 070."""
+    return x * 070
+
+result_070 = function_070(42)
+
+
+--- File Index 98: module_011.py ---
+# Module 011
+def function_011(x):
+    """Function number 011."""
+    return x * 011
+
+result_011 = function_011(42)
+
+
+--- File Index 99: module_059.py ---
+# Module 059
+def function_059(x):
+    """Function number 059."""
+    return x * 059
+
+result_059 = function_059(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # module_043.py
+- 1 # module_079.py
+- 2 # module_072.py
+- 3 # module_097.py
+- 4 # module_063.py
+- 5 # module_033.py
+- 6 # module_061.py
+- 7 # module_100.py
+- 8 # module_024.py
+- 9 # module_095.py
+- 10 # module_051.py
+- 11 # module_018.py
+- 12 # module_046.py
+- 13 # module_047.py
+- 14 # module_085.py
+- 15 # module_045.py
+- 16 # module_027.py
+- 17 # module_058.py
+- 18 # module_037.py
+- 19 # module_007.py
+- 20 # module_038.py
+- 21 # module_078.py
+- 22 # module_088.py
+- 23 # module_004.py
+- 24 # module_090.py
+- 25 # module_080.py
+- 26 # module_081.py
+- 27 # module_060.py
+- 28 # module_094.py
+- 29 # module_041.py
+- 30 # module_021.py
+- 31 # module_039.py
+- 32 # module_093.py
+- 33 # module_056.py
+- 34 # module_096.py
+- 35 # module_069.py
+- 36 # module_001.py
+- 37 # module_066.py
+- 38 # module_086.py
+- 39 # module_054.py
+- 40 # module_008.py
+- 41 # module_032.py
+- 42 # module_098.py
+- 43 # module_076.py
+- 44 # module_020.py
+- 45 # module_073.py
+- 46 # module_030.py
+- 47 # module_071.py
+- 48 # module_025.py
+- 49 # module_042.py
+- 50 # module_089.py
+- 51 # module_003.py
+- 52 # module_002.py
+- 53 # module_084.py
+- 54 # module_012.py
+- 55 # module_064.py
+- 56 # module_044.py
+- 57 # module_077.py
+- 58 # module_028.py
+- 59 # module_083.py
+- 60 # module_016.py
+- 61 # module_035.py
+- 62 # module_005.py
+- 63 # module_026.py
+- 64 # module_074.py
+- 65 # module_009.py
+- 66 # module_036.py
+- 67 # module_068.py
+- 68 # module_065.py
+- 69 # module_015.py
+- 70 # module_092.py
+- 71 # module_050.py
+- 72 # module_022.py
+- 73 # module_034.py
+- 74 # module_082.py
+- 75 # module_087.py
+- 76 # module_048.py
+- 77 # module_053.py
+- 78 # module_023.py
+- 79 # module_055.py
+- 80 # module_017.py
+- 81 # module_091.py
+- 82 # module_075.py
+- 83 # module_010.py
+- 84 # module_029.py
+- 85 # module_019.py
+- 86 # module_049.py
+- 87 # module_052.py
+- 88 # module_057.py
+- 89 # module_013.py
+- 90 # module_031.py
+- 91 # module_014.py
+- 92 # module_006.py
+- 93 # module_067.py
+- 94 # module_099.py
+- 95 # module_062.py
+- 96 # module_040.py
+- 97 # module_070.py
+- 98 # module_011.py
+- 99 # module_059.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:26:44,099 - INFO - PROMPT: 
+For the project `bigfile`:
+
+Codebase Context:
+--- File Index 0: small.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # small.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:27:04,099 - INFO - PROMPT: 
+For the project `bigfile`:
+
+Codebase Context:
+--- File Index 0: small.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # small.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:27:24,991 - INFO - PROMPT: 
+For the project `large-project`:
+
+Codebase Context:
+--- File Index 0: module_043.py ---
+# Module 043
+def function_043(x):
+    """Function number 043."""
+    return x * 043
+
+result_043 = function_043(42)
+
+
+--- File Index 1: module_079.py ---
+# Module 079
+def function_079(x):
+    """Function number 079."""
+    return x * 079
+
+result_079 = function_079(42)
+
+
+--- File Index 2: module_072.py ---
+# Module 072
+def function_072(x):
+    """Function number 072."""
+    return x * 072
+
+result_072 = function_072(42)
+
+
+--- File Index 3: module_097.py ---
+# Module 097
+def function_097(x):
+    """Function number 097."""
+    return x * 097
+
+result_097 = function_097(42)
+
+
+--- File Index 4: module_063.py ---
+# Module 063
+def function_063(x):
+    """Function number 063."""
+    return x * 063
+
+result_063 = function_063(42)
+
+
+--- File Index 5: module_033.py ---
+# Module 033
+def function_033(x):
+    """Function number 033."""
+    return x * 033
+
+result_033 = function_033(42)
+
+
+--- File Index 6: module_061.py ---
+# Module 061
+def function_061(x):
+    """Function number 061."""
+    return x * 061
+
+result_061 = function_061(42)
+
+
+--- File Index 7: module_100.py ---
+# Module 100
+def function_100(x):
+    """Function number 100."""
+    return x * 100
+
+result_100 = function_100(42)
+
+
+--- File Index 8: module_024.py ---
+# Module 024
+def function_024(x):
+    """Function number 024."""
+    return x * 024
+
+result_024 = function_024(42)
+
+
+--- File Index 9: module_095.py ---
+# Module 095
+def function_095(x):
+    """Function number 095."""
+    return x * 095
+
+result_095 = function_095(42)
+
+
+--- File Index 10: module_051.py ---
+# Module 051
+def function_051(x):
+    """Function number 051."""
+    return x * 051
+
+result_051 = function_051(42)
+
+
+--- File Index 11: module_018.py ---
+# Module 018
+def function_018(x):
+    """Function number 018."""
+    return x * 018
+
+result_018 = function_018(42)
+
+
+--- File Index 12: module_046.py ---
+# Module 046
+def function_046(x):
+    """Function number 046."""
+    return x * 046
+
+result_046 = function_046(42)
+
+
+--- File Index 13: module_047.py ---
+# Module 047
+def function_047(x):
+    """Function number 047."""
+    return x * 047
+
+result_047 = function_047(42)
+
+
+--- File Index 14: module_085.py ---
+# Module 085
+def function_085(x):
+    """Function number 085."""
+    return x * 085
+
+result_085 = function_085(42)
+
+
+--- File Index 15: module_045.py ---
+# Module 045
+def function_045(x):
+    """Function number 045."""
+    return x * 045
+
+result_045 = function_045(42)
+
+
+--- File Index 16: module_027.py ---
+# Module 027
+def function_027(x):
+    """Function number 027."""
+    return x * 027
+
+result_027 = function_027(42)
+
+
+--- File Index 17: module_058.py ---
+# Module 058
+def function_058(x):
+    """Function number 058."""
+    return x * 058
+
+result_058 = function_058(42)
+
+
+--- File Index 18: module_037.py ---
+# Module 037
+def function_037(x):
+    """Function number 037."""
+    return x * 037
+
+result_037 = function_037(42)
+
+
+--- File Index 19: module_007.py ---
+# Module 007
+def function_007(x):
+    """Function number 007."""
+    return x * 007
+
+result_007 = function_007(42)
+
+
+--- File Index 20: module_038.py ---
+# Module 038
+def function_038(x):
+    """Function number 038."""
+    return x * 038
+
+result_038 = function_038(42)
+
+
+--- File Index 21: module_078.py ---
+# Module 078
+def function_078(x):
+    """Function number 078."""
+    return x * 078
+
+result_078 = function_078(42)
+
+
+--- File Index 22: module_088.py ---
+# Module 088
+def function_088(x):
+    """Function number 088."""
+    return x * 088
+
+result_088 = function_088(42)
+
+
+--- File Index 23: module_004.py ---
+# Module 004
+def function_004(x):
+    """Function number 004."""
+    return x * 004
+
+result_004 = function_004(42)
+
+
+--- File Index 24: module_090.py ---
+# Module 090
+def function_090(x):
+    """Function number 090."""
+    return x * 090
+
+result_090 = function_090(42)
+
+
+--- File Index 25: module_080.py ---
+# Module 080
+def function_080(x):
+    """Function number 080."""
+    return x * 080
+
+result_080 = function_080(42)
+
+
+--- File Index 26: module_081.py ---
+# Module 081
+def function_081(x):
+    """Function number 081."""
+    return x * 081
+
+result_081 = function_081(42)
+
+
+--- File Index 27: module_060.py ---
+# Module 060
+def function_060(x):
+    """Function number 060."""
+    return x * 060
+
+result_060 = function_060(42)
+
+
+--- File Index 28: module_094.py ---
+# Module 094
+def function_094(x):
+    """Function number 094."""
+    return x * 094
+
+result_094 = function_094(42)
+
+
+--- File Index 29: module_041.py ---
+# Module 041
+def function_041(x):
+    """Function number 041."""
+    return x * 041
+
+result_041 = function_041(42)
+
+
+--- File Index 30: module_021.py ---
+# Module 021
+def function_021(x):
+    """Function number 021."""
+    return x * 021
+
+result_021 = function_021(42)
+
+
+--- File Index 31: module_039.py ---
+# Module 039
+def function_039(x):
+    """Function number 039."""
+    return x * 039
+
+result_039 = function_039(42)
+
+
+--- File Index 32: module_093.py ---
+# Module 093
+def function_093(x):
+    """Function number 093."""
+    return x * 093
+
+result_093 = function_093(42)
+
+
+--- File Index 33: module_056.py ---
+# Module 056
+def function_056(x):
+    """Function number 056."""
+    return x * 056
+
+result_056 = function_056(42)
+
+
+--- File Index 34: module_096.py ---
+# Module 096
+def function_096(x):
+    """Function number 096."""
+    return x * 096
+
+result_096 = function_096(42)
+
+
+--- File Index 35: module_069.py ---
+# Module 069
+def function_069(x):
+    """Function number 069."""
+    return x * 069
+
+result_069 = function_069(42)
+
+
+--- File Index 36: module_001.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+--- File Index 37: module_066.py ---
+# Module 066
+def function_066(x):
+    """Function number 066."""
+    return x * 066
+
+result_066 = function_066(42)
+
+
+--- File Index 38: module_086.py ---
+# Module 086
+def function_086(x):
+    """Function number 086."""
+    return x * 086
+
+result_086 = function_086(42)
+
+
+--- File Index 39: module_054.py ---
+# Module 054
+def function_054(x):
+    """Function number 054."""
+    return x * 054
+
+result_054 = function_054(42)
+
+
+--- File Index 40: module_008.py ---
+# Module 008
+def function_008(x):
+    """Function number 008."""
+    return x * 008
+
+result_008 = function_008(42)
+
+
+--- File Index 41: module_032.py ---
+# Module 032
+def function_032(x):
+    """Function number 032."""
+    return x * 032
+
+result_032 = function_032(42)
+
+
+--- File Index 42: module_098.py ---
+# Module 098
+def function_098(x):
+    """Function number 098."""
+    return x * 098
+
+result_098 = function_098(42)
+
+
+--- File Index 43: module_076.py ---
+# Module 076
+def function_076(x):
+    """Function number 076."""
+    return x * 076
+
+result_076 = function_076(42)
+
+
+--- File Index 44: module_020.py ---
+# Module 020
+def function_020(x):
+    """Function number 020."""
+    return x * 020
+
+result_020 = function_020(42)
+
+
+--- File Index 45: module_073.py ---
+# Module 073
+def function_073(x):
+    """Function number 073."""
+    return x * 073
+
+result_073 = function_073(42)
+
+
+--- File Index 46: module_030.py ---
+# Module 030
+def function_030(x):
+    """Function number 030."""
+    return x * 030
+
+result_030 = function_030(42)
+
+
+--- File Index 47: module_071.py ---
+# Module 071
+def function_071(x):
+    """Function number 071."""
+    return x * 071
+
+result_071 = function_071(42)
+
+
+--- File Index 48: module_025.py ---
+# Module 025
+def function_025(x):
+    """Function number 025."""
+    return x * 025
+
+result_025 = function_025(42)
+
+
+--- File Index 49: module_042.py ---
+# Module 042
+def function_042(x):
+    """Function number 042."""
+    return x * 042
+
+result_042 = function_042(42)
+
+
+--- File Index 50: module_089.py ---
+# Module 089
+def function_089(x):
+    """Function number 089."""
+    return x * 089
+
+result_089 = function_089(42)
+
+
+--- File Index 51: module_003.py ---
+# Module 003
+def function_003(x):
+    """Function number 003."""
+    return x * 003
+
+result_003 = function_003(42)
+
+
+--- File Index 52: module_002.py ---
+# Module 002
+def function_002(x):
+    """Function number 002."""
+    return x * 002
+
+result_002 = function_002(42)
+
+
+--- File Index 53: module_084.py ---
+# Module 084
+def function_084(x):
+    """Function number 084."""
+    return x * 084
+
+result_084 = function_084(42)
+
+
+--- File Index 54: module_012.py ---
+# Module 012
+def function_012(x):
+    """Function number 012."""
+    return x * 012
+
+result_012 = function_012(42)
+
+
+--- File Index 55: module_064.py ---
+# Module 064
+def function_064(x):
+    """Function number 064."""
+    return x * 064
+
+result_064 = function_064(42)
+
+
+--- File Index 56: module_044.py ---
+# Module 044
+def function_044(x):
+    """Function number 044."""
+    return x * 044
+
+result_044 = function_044(42)
+
+
+--- File Index 57: module_077.py ---
+# Module 077
+def function_077(x):
+    """Function number 077."""
+    return x * 077
+
+result_077 = function_077(42)
+
+
+--- File Index 58: module_028.py ---
+# Module 028
+def function_028(x):
+    """Function number 028."""
+    return x * 028
+
+result_028 = function_028(42)
+
+
+--- File Index 59: module_083.py ---
+# Module 083
+def function_083(x):
+    """Function number 083."""
+    return x * 083
+
+result_083 = function_083(42)
+
+
+--- File Index 60: module_016.py ---
+# Module 016
+def function_016(x):
+    """Function number 016."""
+    return x * 016
+
+result_016 = function_016(42)
+
+
+--- File Index 61: module_035.py ---
+# Module 035
+def function_035(x):
+    """Function number 035."""
+    return x * 035
+
+result_035 = function_035(42)
+
+
+--- File Index 62: module_005.py ---
+# Module 005
+def function_005(x):
+    """Function number 005."""
+    return x * 005
+
+result_005 = function_005(42)
+
+
+--- File Index 63: module_026.py ---
+# Module 026
+def function_026(x):
+    """Function number 026."""
+    return x * 026
+
+result_026 = function_026(42)
+
+
+--- File Index 64: module_074.py ---
+# Module 074
+def function_074(x):
+    """Function number 074."""
+    return x * 074
+
+result_074 = function_074(42)
+
+
+--- File Index 65: module_009.py ---
+# Module 009
+def function_009(x):
+    """Function number 009."""
+    return x * 009
+
+result_009 = function_009(42)
+
+
+--- File Index 66: module_036.py ---
+# Module 036
+def function_036(x):
+    """Function number 036."""
+    return x * 036
+
+result_036 = function_036(42)
+
+
+--- File Index 67: module_068.py ---
+# Module 068
+def function_068(x):
+    """Function number 068."""
+    return x * 068
+
+result_068 = function_068(42)
+
+
+--- File Index 68: module_065.py ---
+# Module 065
+def function_065(x):
+    """Function number 065."""
+    return x * 065
+
+result_065 = function_065(42)
+
+
+--- File Index 69: module_015.py ---
+# Module 015
+def function_015(x):
+    """Function number 015."""
+    return x * 015
+
+result_015 = function_015(42)
+
+
+--- File Index 70: module_092.py ---
+# Module 092
+def function_092(x):
+    """Function number 092."""
+    return x * 092
+
+result_092 = function_092(42)
+
+
+--- File Index 71: module_050.py ---
+# Module 050
+def function_050(x):
+    """Function number 050."""
+    return x * 050
+
+result_050 = function_050(42)
+
+
+--- File Index 72: module_022.py ---
+# Module 022
+def function_022(x):
+    """Function number 022."""
+    return x * 022
+
+result_022 = function_022(42)
+
+
+--- File Index 73: module_034.py ---
+# Module 034
+def function_034(x):
+    """Function number 034."""
+    return x * 034
+
+result_034 = function_034(42)
+
+
+--- File Index 74: module_082.py ---
+# Module 082
+def function_082(x):
+    """Function number 082."""
+    return x * 082
+
+result_082 = function_082(42)
+
+
+--- File Index 75: module_087.py ---
+# Module 087
+def function_087(x):
+    """Function number 087."""
+    return x * 087
+
+result_087 = function_087(42)
+
+
+--- File Index 76: module_048.py ---
+# Module 048
+def function_048(x):
+    """Function number 048."""
+    return x * 048
+
+result_048 = function_048(42)
+
+
+--- File Index 77: module_053.py ---
+# Module 053
+def function_053(x):
+    """Function number 053."""
+    return x * 053
+
+result_053 = function_053(42)
+
+
+--- File Index 78: module_023.py ---
+# Module 023
+def function_023(x):
+    """Function number 023."""
+    return x * 023
+
+result_023 = function_023(42)
+
+
+--- File Index 79: module_055.py ---
+# Module 055
+def function_055(x):
+    """Function number 055."""
+    return x * 055
+
+result_055 = function_055(42)
+
+
+--- File Index 80: module_017.py ---
+# Module 017
+def function_017(x):
+    """Function number 017."""
+    return x * 017
+
+result_017 = function_017(42)
+
+
+--- File Index 81: module_091.py ---
+# Module 091
+def function_091(x):
+    """Function number 091."""
+    return x * 091
+
+result_091 = function_091(42)
+
+
+--- File Index 82: module_075.py ---
+# Module 075
+def function_075(x):
+    """Function number 075."""
+    return x * 075
+
+result_075 = function_075(42)
+
+
+--- File Index 83: module_010.py ---
+# Module 010
+def function_010(x):
+    """Function number 010."""
+    return x * 010
+
+result_010 = function_010(42)
+
+
+--- File Index 84: module_029.py ---
+# Module 029
+def function_029(x):
+    """Function number 029."""
+    return x * 029
+
+result_029 = function_029(42)
+
+
+--- File Index 85: module_019.py ---
+# Module 019
+def function_019(x):
+    """Function number 019."""
+    return x * 019
+
+result_019 = function_019(42)
+
+
+--- File Index 86: module_049.py ---
+# Module 049
+def function_049(x):
+    """Function number 049."""
+    return x * 049
+
+result_049 = function_049(42)
+
+
+--- File Index 87: module_052.py ---
+# Module 052
+def function_052(x):
+    """Function number 052."""
+    return x * 052
+
+result_052 = function_052(42)
+
+
+--- File Index 88: module_057.py ---
+# Module 057
+def function_057(x):
+    """Function number 057."""
+    return x * 057
+
+result_057 = function_057(42)
+
+
+--- File Index 89: module_013.py ---
+# Module 013
+def function_013(x):
+    """Function number 013."""
+    return x * 013
+
+result_013 = function_013(42)
+
+
+--- File Index 90: module_031.py ---
+# Module 031
+def function_031(x):
+    """Function number 031."""
+    return x * 031
+
+result_031 = function_031(42)
+
+
+--- File Index 91: module_014.py ---
+# Module 014
+def function_014(x):
+    """Function number 014."""
+    return x * 014
+
+result_014 = function_014(42)
+
+
+--- File Index 92: module_006.py ---
+# Module 006
+def function_006(x):
+    """Function number 006."""
+    return x * 006
+
+result_006 = function_006(42)
+
+
+--- File Index 93: module_067.py ---
+# Module 067
+def function_067(x):
+    """Function number 067."""
+    return x * 067
+
+result_067 = function_067(42)
+
+
+--- File Index 94: module_099.py ---
+# Module 099
+def function_099(x):
+    """Function number 099."""
+    return x * 099
+
+result_099 = function_099(42)
+
+
+--- File Index 95: module_062.py ---
+# Module 062
+def function_062(x):
+    """Function number 062."""
+    return x * 062
+
+result_062 = function_062(42)
+
+
+--- File Index 96: module_040.py ---
+# Module 040
+def function_040(x):
+    """Function number 040."""
+    return x * 040
+
+result_040 = function_040(42)
+
+
+--- File Index 97: module_070.py ---
+# Module 070
+def function_070(x):
+    """Function number 070."""
+    return x * 070
+
+result_070 = function_070(42)
+
+
+--- File Index 98: module_011.py ---
+# Module 011
+def function_011(x):
+    """Function number 011."""
+    return x * 011
+
+result_011 = function_011(42)
+
+
+--- File Index 99: module_059.py ---
+# Module 059
+def function_059(x):
+    """Function number 059."""
+    return x * 059
+
+result_059 = function_059(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # module_043.py
+- 1 # module_079.py
+- 2 # module_072.py
+- 3 # module_097.py
+- 4 # module_063.py
+- 5 # module_033.py
+- 6 # module_061.py
+- 7 # module_100.py
+- 8 # module_024.py
+- 9 # module_095.py
+- 10 # module_051.py
+- 11 # module_018.py
+- 12 # module_046.py
+- 13 # module_047.py
+- 14 # module_085.py
+- 15 # module_045.py
+- 16 # module_027.py
+- 17 # module_058.py
+- 18 # module_037.py
+- 19 # module_007.py
+- 20 # module_038.py
+- 21 # module_078.py
+- 22 # module_088.py
+- 23 # module_004.py
+- 24 # module_090.py
+- 25 # module_080.py
+- 26 # module_081.py
+- 27 # module_060.py
+- 28 # module_094.py
+- 29 # module_041.py
+- 30 # module_021.py
+- 31 # module_039.py
+- 32 # module_093.py
+- 33 # module_056.py
+- 34 # module_096.py
+- 35 # module_069.py
+- 36 # module_001.py
+- 37 # module_066.py
+- 38 # module_086.py
+- 39 # module_054.py
+- 40 # module_008.py
+- 41 # module_032.py
+- 42 # module_098.py
+- 43 # module_076.py
+- 44 # module_020.py
+- 45 # module_073.py
+- 46 # module_030.py
+- 47 # module_071.py
+- 48 # module_025.py
+- 49 # module_042.py
+- 50 # module_089.py
+- 51 # module_003.py
+- 52 # module_002.py
+- 53 # module_084.py
+- 54 # module_012.py
+- 55 # module_064.py
+- 56 # module_044.py
+- 57 # module_077.py
+- 58 # module_028.py
+- 59 # module_083.py
+- 60 # module_016.py
+- 61 # module_035.py
+- 62 # module_005.py
+- 63 # module_026.py
+- 64 # module_074.py
+- 65 # module_009.py
+- 66 # module_036.py
+- 67 # module_068.py
+- 68 # module_065.py
+- 69 # module_015.py
+- 70 # module_092.py
+- 71 # module_050.py
+- 72 # module_022.py
+- 73 # module_034.py
+- 74 # module_082.py
+- 75 # module_087.py
+- 76 # module_048.py
+- 77 # module_053.py
+- 78 # module_023.py
+- 79 # module_055.py
+- 80 # module_017.py
+- 81 # module_091.py
+- 82 # module_075.py
+- 83 # module_010.py
+- 84 # module_029.py
+- 85 # module_019.py
+- 86 # module_049.py
+- 87 # module_052.py
+- 88 # module_057.py
+- 89 # module_013.py
+- 90 # module_031.py
+- 91 # module_014.py
+- 92 # module_006.py
+- 93 # module_067.py
+- 94 # module_099.py
+- 95 # module_062.py
+- 96 # module_040.py
+- 97 # module_070.py
+- 98 # module_011.py
+- 99 # module_059.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:27:31,203 - INFO - PROMPT: 
+For the project `TestProject`:
+
+Codebase Context:
+--- File Index 0: main.py ---
+"""Entry point for TestProject."""
+from hello import greet, farewell
+from utils import ensure_dir
+
+
+def main() -> None:
+    """Run the main application logic."""
+    ensure_dir("/tmp/testproject_output")
+    print(greet("World"))
+    print(farewell("World"))
+
+
+if __name__ == "__main__":
+    main()
+
+
+--- File Index 1: hello.py ---
+"""Hello module for TestProject."""
+
+
+def greet(name: str) -> str:
+    """Return a greeting string for the given name."""
+    return f"Hello, {name}!"
+
+
+def farewell(name: str) -> str:
+    """Return a farewell string for the given name."""
+    return f"Goodbye, {name}!"
+
+
+--- File Index 2: utils.py ---
+"""Utility functions for TestProject."""
+import os
+
+
+def ensure_dir(path: str) -> None:
+    """Create directory if it does not exist."""
+    os.makedirs(path, exist_ok=True)
+
+
+def read_file(path: str) -> str:
+    """Read and return the contents of a file."""
+    with open(path, "r") as f:
+        return f.read()
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # main.py
+- 1 # hello.py
+- 2 # utils.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:27:43,877 - INFO - PROMPT: 
+For the project `TestProject`:
+
+Codebase Context:
+--- File Index 0: main.py ---
+"""Entry point for TestProject."""
+from hello import greet, farewell
+from utils import ensure_dir
+
+
+def main() -> None:
+    """Run the main application logic."""
+    ensure_dir("/tmp/testproject_output")
+    print(greet("World"))
+    print(farewell("World"))
+
+
+if __name__ == "__main__":
+    main()
+
+
+--- File Index 1: hello.py ---
+"""Hello module for TestProject."""
+
+
+def greet(name: str) -> str:
+    """Return a greeting string for the given name."""
+    return f"Hello, {name}!"
+
+
+def farewell(name: str) -> str:
+    """Return a farewell string for the given name."""
+    return f"Goodbye, {name}!"
+
+
+--- File Index 2: utils.py ---
+"""Utility functions for TestProject."""
+import os
+
+
+def ensure_dir(path: str) -> None:
+    """Create directory if it does not exist."""
+    os.makedirs(path, exist_ok=True)
+
+
+def read_file(path: str) -> str:
+    """Read and return the contents of a file."""
+    with open(path, "r") as f:
+        return f.read()
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # main.py
+- 1 # hello.py
+- 2 # utils.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:27:56,476 - INFO - PROMPT: 
+For the project `small-single`:
+
+Codebase Context:
+--- File Index 0: module_001.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # module_001.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
+2026-05-20 12:28:29,192 - INFO - PROMPT: 
+For the project `large-project`:
+
+Codebase Context:
+--- File Index 0: module_043.py ---
+# Module 043
+def function_043(x):
+    """Function number 043."""
+    return x * 043
+
+result_043 = function_043(42)
+
+
+--- File Index 1: module_079.py ---
+# Module 079
+def function_079(x):
+    """Function number 079."""
+    return x * 079
+
+result_079 = function_079(42)
+
+
+--- File Index 2: module_072.py ---
+# Module 072
+def function_072(x):
+    """Function number 072."""
+    return x * 072
+
+result_072 = function_072(42)
+
+
+--- File Index 3: module_097.py ---
+# Module 097
+def function_097(x):
+    """Function number 097."""
+    return x * 097
+
+result_097 = function_097(42)
+
+
+--- File Index 4: module_063.py ---
+# Module 063
+def function_063(x):
+    """Function number 063."""
+    return x * 063
+
+result_063 = function_063(42)
+
+
+--- File Index 5: module_033.py ---
+# Module 033
+def function_033(x):
+    """Function number 033."""
+    return x * 033
+
+result_033 = function_033(42)
+
+
+--- File Index 6: module_061.py ---
+# Module 061
+def function_061(x):
+    """Function number 061."""
+    return x * 061
+
+result_061 = function_061(42)
+
+
+--- File Index 7: module_100.py ---
+# Module 100
+def function_100(x):
+    """Function number 100."""
+    return x * 100
+
+result_100 = function_100(42)
+
+
+--- File Index 8: module_024.py ---
+# Module 024
+def function_024(x):
+    """Function number 024."""
+    return x * 024
+
+result_024 = function_024(42)
+
+
+--- File Index 9: module_095.py ---
+# Module 095
+def function_095(x):
+    """Function number 095."""
+    return x * 095
+
+result_095 = function_095(42)
+
+
+--- File Index 10: module_051.py ---
+# Module 051
+def function_051(x):
+    """Function number 051."""
+    return x * 051
+
+result_051 = function_051(42)
+
+
+--- File Index 11: module_018.py ---
+# Module 018
+def function_018(x):
+    """Function number 018."""
+    return x * 018
+
+result_018 = function_018(42)
+
+
+--- File Index 12: module_046.py ---
+# Module 046
+def function_046(x):
+    """Function number 046."""
+    return x * 046
+
+result_046 = function_046(42)
+
+
+--- File Index 13: module_047.py ---
+# Module 047
+def function_047(x):
+    """Function number 047."""
+    return x * 047
+
+result_047 = function_047(42)
+
+
+--- File Index 14: module_085.py ---
+# Module 085
+def function_085(x):
+    """Function number 085."""
+    return x * 085
+
+result_085 = function_085(42)
+
+
+--- File Index 15: module_045.py ---
+# Module 045
+def function_045(x):
+    """Function number 045."""
+    return x * 045
+
+result_045 = function_045(42)
+
+
+--- File Index 16: module_027.py ---
+# Module 027
+def function_027(x):
+    """Function number 027."""
+    return x * 027
+
+result_027 = function_027(42)
+
+
+--- File Index 17: module_058.py ---
+# Module 058
+def function_058(x):
+    """Function number 058."""
+    return x * 058
+
+result_058 = function_058(42)
+
+
+--- File Index 18: module_037.py ---
+# Module 037
+def function_037(x):
+    """Function number 037."""
+    return x * 037
+
+result_037 = function_037(42)
+
+
+--- File Index 19: module_007.py ---
+# Module 007
+def function_007(x):
+    """Function number 007."""
+    return x * 007
+
+result_007 = function_007(42)
+
+
+--- File Index 20: module_038.py ---
+# Module 038
+def function_038(x):
+    """Function number 038."""
+    return x * 038
+
+result_038 = function_038(42)
+
+
+--- File Index 21: module_078.py ---
+# Module 078
+def function_078(x):
+    """Function number 078."""
+    return x * 078
+
+result_078 = function_078(42)
+
+
+--- File Index 22: module_088.py ---
+# Module 088
+def function_088(x):
+    """Function number 088."""
+    return x * 088
+
+result_088 = function_088(42)
+
+
+--- File Index 23: module_004.py ---
+# Module 004
+def function_004(x):
+    """Function number 004."""
+    return x * 004
+
+result_004 = function_004(42)
+
+
+--- File Index 24: module_090.py ---
+# Module 090
+def function_090(x):
+    """Function number 090."""
+    return x * 090
+
+result_090 = function_090(42)
+
+
+--- File Index 25: module_080.py ---
+# Module 080
+def function_080(x):
+    """Function number 080."""
+    return x * 080
+
+result_080 = function_080(42)
+
+
+--- File Index 26: module_081.py ---
+# Module 081
+def function_081(x):
+    """Function number 081."""
+    return x * 081
+
+result_081 = function_081(42)
+
+
+--- File Index 27: module_060.py ---
+# Module 060
+def function_060(x):
+    """Function number 060."""
+    return x * 060
+
+result_060 = function_060(42)
+
+
+--- File Index 28: module_094.py ---
+# Module 094
+def function_094(x):
+    """Function number 094."""
+    return x * 094
+
+result_094 = function_094(42)
+
+
+--- File Index 29: module_041.py ---
+# Module 041
+def function_041(x):
+    """Function number 041."""
+    return x * 041
+
+result_041 = function_041(42)
+
+
+--- File Index 30: module_021.py ---
+# Module 021
+def function_021(x):
+    """Function number 021."""
+    return x * 021
+
+result_021 = function_021(42)
+
+
+--- File Index 31: module_039.py ---
+# Module 039
+def function_039(x):
+    """Function number 039."""
+    return x * 039
+
+result_039 = function_039(42)
+
+
+--- File Index 32: module_093.py ---
+# Module 093
+def function_093(x):
+    """Function number 093."""
+    return x * 093
+
+result_093 = function_093(42)
+
+
+--- File Index 33: module_056.py ---
+# Module 056
+def function_056(x):
+    """Function number 056."""
+    return x * 056
+
+result_056 = function_056(42)
+
+
+--- File Index 34: module_096.py ---
+# Module 096
+def function_096(x):
+    """Function number 096."""
+    return x * 096
+
+result_096 = function_096(42)
+
+
+--- File Index 35: module_069.py ---
+# Module 069
+def function_069(x):
+    """Function number 069."""
+    return x * 069
+
+result_069 = function_069(42)
+
+
+--- File Index 36: module_001.py ---
+# Module 001
+def function_001(x):
+    """Function number 001."""
+    return x * 001
+
+result_001 = function_001(42)
+
+
+--- File Index 37: module_066.py ---
+# Module 066
+def function_066(x):
+    """Function number 066."""
+    return x * 066
+
+result_066 = function_066(42)
+
+
+--- File Index 38: module_086.py ---
+# Module 086
+def function_086(x):
+    """Function number 086."""
+    return x * 086
+
+result_086 = function_086(42)
+
+
+--- File Index 39: module_054.py ---
+# Module 054
+def function_054(x):
+    """Function number 054."""
+    return x * 054
+
+result_054 = function_054(42)
+
+
+--- File Index 40: module_008.py ---
+# Module 008
+def function_008(x):
+    """Function number 008."""
+    return x * 008
+
+result_008 = function_008(42)
+
+
+--- File Index 41: module_032.py ---
+# Module 032
+def function_032(x):
+    """Function number 032."""
+    return x * 032
+
+result_032 = function_032(42)
+
+
+--- File Index 42: module_098.py ---
+# Module 098
+def function_098(x):
+    """Function number 098."""
+    return x * 098
+
+result_098 = function_098(42)
+
+
+--- File Index 43: module_076.py ---
+# Module 076
+def function_076(x):
+    """Function number 076."""
+    return x * 076
+
+result_076 = function_076(42)
+
+
+--- File Index 44: module_020.py ---
+# Module 020
+def function_020(x):
+    """Function number 020."""
+    return x * 020
+
+result_020 = function_020(42)
+
+
+--- File Index 45: module_073.py ---
+# Module 073
+def function_073(x):
+    """Function number 073."""
+    return x * 073
+
+result_073 = function_073(42)
+
+
+--- File Index 46: module_030.py ---
+# Module 030
+def function_030(x):
+    """Function number 030."""
+    return x * 030
+
+result_030 = function_030(42)
+
+
+--- File Index 47: module_071.py ---
+# Module 071
+def function_071(x):
+    """Function number 071."""
+    return x * 071
+
+result_071 = function_071(42)
+
+
+--- File Index 48: module_025.py ---
+# Module 025
+def function_025(x):
+    """Function number 025."""
+    return x * 025
+
+result_025 = function_025(42)
+
+
+--- File Index 49: module_042.py ---
+# Module 042
+def function_042(x):
+    """Function number 042."""
+    return x * 042
+
+result_042 = function_042(42)
+
+
+--- File Index 50: module_089.py ---
+# Module 089
+def function_089(x):
+    """Function number 089."""
+    return x * 089
+
+result_089 = function_089(42)
+
+
+--- File Index 51: module_003.py ---
+# Module 003
+def function_003(x):
+    """Function number 003."""
+    return x * 003
+
+result_003 = function_003(42)
+
+
+--- File Index 52: module_002.py ---
+# Module 002
+def function_002(x):
+    """Function number 002."""
+    return x * 002
+
+result_002 = function_002(42)
+
+
+--- File Index 53: module_084.py ---
+# Module 084
+def function_084(x):
+    """Function number 084."""
+    return x * 084
+
+result_084 = function_084(42)
+
+
+--- File Index 54: module_012.py ---
+# Module 012
+def function_012(x):
+    """Function number 012."""
+    return x * 012
+
+result_012 = function_012(42)
+
+
+--- File Index 55: module_064.py ---
+# Module 064
+def function_064(x):
+    """Function number 064."""
+    return x * 064
+
+result_064 = function_064(42)
+
+
+--- File Index 56: module_044.py ---
+# Module 044
+def function_044(x):
+    """Function number 044."""
+    return x * 044
+
+result_044 = function_044(42)
+
+
+--- File Index 57: module_077.py ---
+# Module 077
+def function_077(x):
+    """Function number 077."""
+    return x * 077
+
+result_077 = function_077(42)
+
+
+--- File Index 58: module_028.py ---
+# Module 028
+def function_028(x):
+    """Function number 028."""
+    return x * 028
+
+result_028 = function_028(42)
+
+
+--- File Index 59: module_083.py ---
+# Module 083
+def function_083(x):
+    """Function number 083."""
+    return x * 083
+
+result_083 = function_083(42)
+
+
+--- File Index 60: module_016.py ---
+# Module 016
+def function_016(x):
+    """Function number 016."""
+    return x * 016
+
+result_016 = function_016(42)
+
+
+--- File Index 61: module_035.py ---
+# Module 035
+def function_035(x):
+    """Function number 035."""
+    return x * 035
+
+result_035 = function_035(42)
+
+
+--- File Index 62: module_005.py ---
+# Module 005
+def function_005(x):
+    """Function number 005."""
+    return x * 005
+
+result_005 = function_005(42)
+
+
+--- File Index 63: module_026.py ---
+# Module 026
+def function_026(x):
+    """Function number 026."""
+    return x * 026
+
+result_026 = function_026(42)
+
+
+--- File Index 64: module_074.py ---
+# Module 074
+def function_074(x):
+    """Function number 074."""
+    return x * 074
+
+result_074 = function_074(42)
+
+
+--- File Index 65: module_009.py ---
+# Module 009
+def function_009(x):
+    """Function number 009."""
+    return x * 009
+
+result_009 = function_009(42)
+
+
+--- File Index 66: module_036.py ---
+# Module 036
+def function_036(x):
+    """Function number 036."""
+    return x * 036
+
+result_036 = function_036(42)
+
+
+--- File Index 67: module_068.py ---
+# Module 068
+def function_068(x):
+    """Function number 068."""
+    return x * 068
+
+result_068 = function_068(42)
+
+
+--- File Index 68: module_065.py ---
+# Module 065
+def function_065(x):
+    """Function number 065."""
+    return x * 065
+
+result_065 = function_065(42)
+
+
+--- File Index 69: module_015.py ---
+# Module 015
+def function_015(x):
+    """Function number 015."""
+    return x * 015
+
+result_015 = function_015(42)
+
+
+--- File Index 70: module_092.py ---
+# Module 092
+def function_092(x):
+    """Function number 092."""
+    return x * 092
+
+result_092 = function_092(42)
+
+
+--- File Index 71: module_050.py ---
+# Module 050
+def function_050(x):
+    """Function number 050."""
+    return x * 050
+
+result_050 = function_050(42)
+
+
+--- File Index 72: module_022.py ---
+# Module 022
+def function_022(x):
+    """Function number 022."""
+    return x * 022
+
+result_022 = function_022(42)
+
+
+--- File Index 73: module_034.py ---
+# Module 034
+def function_034(x):
+    """Function number 034."""
+    return x * 034
+
+result_034 = function_034(42)
+
+
+--- File Index 74: module_082.py ---
+# Module 082
+def function_082(x):
+    """Function number 082."""
+    return x * 082
+
+result_082 = function_082(42)
+
+
+--- File Index 75: module_087.py ---
+# Module 087
+def function_087(x):
+    """Function number 087."""
+    return x * 087
+
+result_087 = function_087(42)
+
+
+--- File Index 76: module_048.py ---
+# Module 048
+def function_048(x):
+    """Function number 048."""
+    return x * 048
+
+result_048 = function_048(42)
+
+
+--- File Index 77: module_053.py ---
+# Module 053
+def function_053(x):
+    """Function number 053."""
+    return x * 053
+
+result_053 = function_053(42)
+
+
+--- File Index 78: module_023.py ---
+# Module 023
+def function_023(x):
+    """Function number 023."""
+    return x * 023
+
+result_023 = function_023(42)
+
+
+--- File Index 79: module_055.py ---
+# Module 055
+def function_055(x):
+    """Function number 055."""
+    return x * 055
+
+result_055 = function_055(42)
+
+
+--- File Index 80: module_017.py ---
+# Module 017
+def function_017(x):
+    """Function number 017."""
+    return x * 017
+
+result_017 = function_017(42)
+
+
+--- File Index 81: module_091.py ---
+# Module 091
+def function_091(x):
+    """Function number 091."""
+    return x * 091
+
+result_091 = function_091(42)
+
+
+--- File Index 82: module_075.py ---
+# Module 075
+def function_075(x):
+    """Function number 075."""
+    return x * 075
+
+result_075 = function_075(42)
+
+
+--- File Index 83: module_010.py ---
+# Module 010
+def function_010(x):
+    """Function number 010."""
+    return x * 010
+
+result_010 = function_010(42)
+
+
+--- File Index 84: module_029.py ---
+# Module 029
+def function_029(x):
+    """Function number 029."""
+    return x * 029
+
+result_029 = function_029(42)
+
+
+--- File Index 85: module_019.py ---
+# Module 019
+def function_019(x):
+    """Function number 019."""
+    return x * 019
+
+result_019 = function_019(42)
+
+
+--- File Index 86: module_049.py ---
+# Module 049
+def function_049(x):
+    """Function number 049."""
+    return x * 049
+
+result_049 = function_049(42)
+
+
+--- File Index 87: module_052.py ---
+# Module 052
+def function_052(x):
+    """Function number 052."""
+    return x * 052
+
+result_052 = function_052(42)
+
+
+--- File Index 88: module_057.py ---
+# Module 057
+def function_057(x):
+    """Function number 057."""
+    return x * 057
+
+result_057 = function_057(42)
+
+
+--- File Index 89: module_013.py ---
+# Module 013
+def function_013(x):
+    """Function number 013."""
+    return x * 013
+
+result_013 = function_013(42)
+
+
+--- File Index 90: module_031.py ---
+# Module 031
+def function_031(x):
+    """Function number 031."""
+    return x * 031
+
+result_031 = function_031(42)
+
+
+--- File Index 91: module_014.py ---
+# Module 014
+def function_014(x):
+    """Function number 014."""
+    return x * 014
+
+result_014 = function_014(42)
+
+
+--- File Index 92: module_006.py ---
+# Module 006
+def function_006(x):
+    """Function number 006."""
+    return x * 006
+
+result_006 = function_006(42)
+
+
+--- File Index 93: module_067.py ---
+# Module 067
+def function_067(x):
+    """Function number 067."""
+    return x * 067
+
+result_067 = function_067(42)
+
+
+--- File Index 94: module_099.py ---
+# Module 099
+def function_099(x):
+    """Function number 099."""
+    return x * 099
+
+result_099 = function_099(42)
+
+
+--- File Index 95: module_062.py ---
+# Module 062
+def function_062(x):
+    """Function number 062."""
+    return x * 062
+
+result_062 = function_062(42)
+
+
+--- File Index 96: module_040.py ---
+# Module 040
+def function_040(x):
+    """Function number 040."""
+    return x * 040
+
+result_040 = function_040(42)
+
+
+--- File Index 97: module_070.py ---
+# Module 070
+def function_070(x):
+    """Function number 070."""
+    return x * 070
+
+result_070 = function_070(42)
+
+
+--- File Index 98: module_011.py ---
+# Module 011
+def function_011(x):
+    """Function number 011."""
+    return x * 011
+
+result_011 = function_011(42)
+
+
+--- File Index 99: module_059.py ---
+# Module 059
+def function_059(x):
+    """Function number 059."""
+    return x * 059
+
+result_059 = function_059(42)
+
+
+
+
+Analyze the codebase context.
+Identify the top 5 to 10 core most important abstractions for technical documentation that helps existing and new engineers understand the codebase.
+
+For each abstraction, provide:
+1. A concise `name`.
+2. A technical `description` explaining what it does, its responsibilities, and role in the system, in around 100 words.
+3. A list of relevant `file_indices` (integers) using the format `idx # path/comment`.
+
+List of file indices and paths present in the context:
+- 0 # module_043.py
+- 1 # module_079.py
+- 2 # module_072.py
+- 3 # module_097.py
+- 4 # module_063.py
+- 5 # module_033.py
+- 6 # module_061.py
+- 7 # module_100.py
+- 8 # module_024.py
+- 9 # module_095.py
+- 10 # module_051.py
+- 11 # module_018.py
+- 12 # module_046.py
+- 13 # module_047.py
+- 14 # module_085.py
+- 15 # module_045.py
+- 16 # module_027.py
+- 17 # module_058.py
+- 18 # module_037.py
+- 19 # module_007.py
+- 20 # module_038.py
+- 21 # module_078.py
+- 22 # module_088.py
+- 23 # module_004.py
+- 24 # module_090.py
+- 25 # module_080.py
+- 26 # module_081.py
+- 27 # module_060.py
+- 28 # module_094.py
+- 29 # module_041.py
+- 30 # module_021.py
+- 31 # module_039.py
+- 32 # module_093.py
+- 33 # module_056.py
+- 34 # module_096.py
+- 35 # module_069.py
+- 36 # module_001.py
+- 37 # module_066.py
+- 38 # module_086.py
+- 39 # module_054.py
+- 40 # module_008.py
+- 41 # module_032.py
+- 42 # module_098.py
+- 43 # module_076.py
+- 44 # module_020.py
+- 45 # module_073.py
+- 46 # module_030.py
+- 47 # module_071.py
+- 48 # module_025.py
+- 49 # module_042.py
+- 50 # module_089.py
+- 51 # module_003.py
+- 52 # module_002.py
+- 53 # module_084.py
+- 54 # module_012.py
+- 55 # module_064.py
+- 56 # module_044.py
+- 57 # module_077.py
+- 58 # module_028.py
+- 59 # module_083.py
+- 60 # module_016.py
+- 61 # module_035.py
+- 62 # module_005.py
+- 63 # module_026.py
+- 64 # module_074.py
+- 65 # module_009.py
+- 66 # module_036.py
+- 67 # module_068.py
+- 68 # module_065.py
+- 69 # module_015.py
+- 70 # module_092.py
+- 71 # module_050.py
+- 72 # module_022.py
+- 73 # module_034.py
+- 74 # module_082.py
+- 75 # module_087.py
+- 76 # module_048.py
+- 77 # module_053.py
+- 78 # module_023.py
+- 79 # module_055.py
+- 80 # module_017.py
+- 81 # module_091.py
+- 82 # module_075.py
+- 83 # module_010.py
+- 84 # module_029.py
+- 85 # module_019.py
+- 86 # module_049.py
+- 87 # module_052.py
+- 88 # module_057.py
+- 89 # module_013.py
+- 90 # module_031.py
+- 91 # module_014.py
+- 92 # module_006.py
+- 93 # module_067.py
+- 94 # module_099.py
+- 95 # module_062.py
+- 96 # module_040.py
+- 97 # module_070.py
+- 98 # module_011.py
+- 99 # module_059.py
+
+Format the output as a YAML list of dictionaries:
+
+```yaml
+- name: |
+    Query Processing
+  description: |
+    Handles incoming queries and routes them to appropriate handlers.
+    Responsible for parsing, validation, and initial processing of user requests.
+  file_indices:
+    - 0 # path/to/file1.py
+    - 3 # path/to/related.py
+- name: |
+    Query Optimization
+  description: |
+    Optimizes query execution by analyzing patterns and caching results.
+    Manages performance improvements and resource allocation for query processing.
+  file_indices:
+    - 5 # path/to/another.js
+# ... up to 10 abstractions
+```
